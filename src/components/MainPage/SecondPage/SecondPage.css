@@ -1,0 +1,168 @@
+@import url(https://db.onlinewebfonts.com/c/bf7defac1311d97d5f5cf146889ee370?family=Steppe);
+@import url(https://fonts.cdnfonts.com/css/tt-firs-neue-trl);
+.TitleSeconPage h1 {
+  font-size: 22px;
+  padding: 5vh 0;
+  padding-top: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 400;
+  font-family: "Steppe";
+}
+
+.css-wo2kn2 {
+  height: 100vh;
+}
+.css-1gk4sy5 {
+  background: #ffff;
+}
+
+.SecondPageFlex {
+  font-family: "Steppe";
+  color: #fff;
+  width: 92%;
+  margin: auto;
+  padding-bottom: 4vh;
+  display: grid;
+  font-size: 12px;
+  grid-template-columns: 47% 51%;
+  gap: 2vh 2vw;
+  margin: auto;
+}
+
+.SecondPageFlex h1 {
+  font-size: 28px;
+  z-index: 10;
+}
+
+.SecondPageFlexTwo {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-auto-rows: minmax(130px, 130px);
+  overflow: hidden;
+}
+.SecondPageFlexTwo .SecondPageFlexTwo-1 {
+  background-color: #fd7824;
+  color: #fff;
+}
+.SecondPageFlexTwo-1 img {
+  position: absolute;
+  width: 55px;
+  top: 12%;
+  right: 5%;
+  z-index: 1;
+}
+
+.SecondPageFlexTwo .SecondPageFlexTwo-0 h3 {
+  font-weight: 600;
+  font-size: 14px;
+  padding-bottom: 4vh;
+  display: flex;
+  align-items: center;
+}
+.SecondPageFlexTwo .SecondPageFlexTwo-0 {
+  position: relative;
+  padding: 8% 5% 0% 8%;
+  color: #fff;
+  font-family: "Steppe";
+}
+.SecondPageFlexTwo .SecondPageFlexTwo-0 p {
+  z-index: 5;
+}
+.SecondPageFlexTwo .SecondPageFlexTwo-0 p {
+  font-weight: 300;
+  font-size: 10px;
+  width: 105%;
+  padding: 0% 3%;
+}
+
+.css-morv61 {
+  padding-top: 110px;
+}
+
+.SecondPageFlexTwo-2 {
+  background-color: #cf3559;
+}
+.SecondPageFlexTwo-2 img {
+  position: absolute;
+  width: 40px;
+  top: 25%;
+  right: 0%;
+  z-index: 1;
+}
+.SecondPageFlexTwo-3 img {
+  position: absolute;
+  width: 70px;
+  height: 50px;
+  top: 15%;
+  right: 0;
+  z-index: 1;
+}
+.SecondPageFlexTwo-3 {
+  background-color: #8a6abd;
+}
+.SecondPageFlexTwo-4 {
+  background-color: #186e85;
+}
+.SecondPageFlexTwo-4 img {
+  position: absolute;
+  height: 120px;
+  top: 10%;
+  right: -10%;
+  z-index: 1;
+}
+.NavigateNextIcon {
+  font-size: 13px !important;
+}
+.flexGrid {
+  padding: 4vh 3% 6vh 3%;
+}
+.BoxSecondPageLine{
+    display: none;
+}
+@media screen and (min-width: 800px) {
+  .TitleSeconPage h1 {
+    font-size: 45px;
+    padding-top: 15px;
+  }
+  .SecondPageFlex h1 {
+    font-size: 30px;
+  }
+  .SecondPageFlex p {
+    font-size: 16px;
+  }
+
+  .SecondPageFlexTwo {
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-auto-rows: minmax(200px, auto);
+  }
+  .flexGrid {
+    padding: 7vh 3% 6vh 3%;
+  }
+  .SecondPageFlexTwo .SecondPageFlexTwo-0 h3 {
+    font-size: 17px;
+  }
+  .SecondPageFlexTwo .SecondPageFlexTwo-0 p {
+    font-size: 14px;
+  }
+  .NavigateNextIcon {
+    font-size: 18px !important;
+  }
+  .SecondPageFlex {
+    grid-template-columns: 23% 22% 22% 1% 24%;
+  }
+  .css-24blvn{
+    flex-direction: row !important;
+    justify-content: space-between;
+    align-items:center;
+  }
+
+  .TitleSeconPage h1 span{
+    font-weight: 900 !important;
+  }
+  .BoxSecondPageLine{
+    display: block;
+    left: -10px;
+}
+}

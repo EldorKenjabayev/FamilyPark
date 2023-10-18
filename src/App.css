@@ -1,0 +1,95 @@
+
+@font-face {
+  font-family: "Steppe";
+  src: url("./Fonts/Steppe/Steppe-Black.woff") format("woff"),
+    url("./Fonts/Steppe/Steppe-Black.ttf") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.btnGroupFixed {
+  position: fixed;
+  bottom: 30px;
+  right: 50px;
+  z-index: 999;
+  display: none;
+  align-items: center;
+  height: 65px;
+  justify-content: space-between;
+  gap: .7vw;
+}
+
+.btnGroupFixed button {
+  padding: 10px 35px;
+  font-size: 15px;
+  border-radius: 55px;
+  border: none;
+  cursor: pointer;
+  text-align: start;
+ 
+}
+.btnGroupFixed button  span{
+  color: #fff;
+  font-family: 'Steppe';
+  font-weight: 700;
+  font-size: 15px;
+  
+}
+
+.btnGroupFixed .BtnFixed1{
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color:rgba(250, 85, 123, 1);
+}
+.btnGroupFixed .BtnFixed2{
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color:rgba(44, 45, 88, 1);
+}
+
+.btnGroupFixed .ArrowIconTop {
+  transform: rotate(90deg);
+  font-size: 30px;
+  position: relative;
+  top: 10%;
+  color: #fff;
+}
+
+@media screen and (min-width:800px) {
+  .btnGroupFixed {
+    display: flex;
+  }
+}

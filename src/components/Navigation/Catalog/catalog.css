@@ -1,0 +1,121 @@
+@font-face {
+  font-family: "TT Firs Neue Bold Italic";
+  src: url("../../../Fonts/TTFirsNeue-BoldItalic/TTFirsNeue-BoldItalic.ttf")
+      format("ttf"),
+    url("../../../Fonts/TTFirsNeue-BoldItalic/TTFirsNeue-DemiBoldItalic.woff")
+      format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+@import url("https://fonts.cdnfonts.com/css/tt-firs-neue-trl");
+
+.catalog ul li a {
+  display: flex;
+  padding-left: 3%;
+  align-items: center;
+  gap: 10px;
+  font-family: "TT Firs Neue Bold Italic";
+  font-size: 28px;
+  font-weight: 700;
+  color: rgb(37, 37, 76);
+  margin-bottom: 10px;
+  translate: -20px 0px;
+  transition: 0.4s ease;
+}
+a {
+  padding-left: 3%;
+}
+.catalog ul li a::before {
+  content: "";
+  transition: 0.4s ease;
+  display: block;
+  width: 14px;
+  height: 14px;
+  background-color: rgb(37, 37, 76);
+  border-radius: 100%;
+  translate: -20px 0px;
+  opacity: 0;
+}
+
+.catalog ul li a:hover {
+  translate: 0px 0px;
+}
+
+.catalog ul li a:hover::before {
+  translate: 0px 0px !important;
+  opacity: 1 !important;
+}
+
+.centerCatalog {
+  padding-top: 10px;
+}
+
+.centerCatalog a {
+  font-size: 28px;
+  font-family: "TT Firs Neue Trl", sans-serif;
+  font-weight: 700;
+  line-height: 40px;
+  padding-left: 3%;
+  color: #c83053;
+}
+.center2Catalog {
+  padding-top: 1vh;
+}
+.center2Catalog a {
+  display: contents;
+  line-height: 25px;
+  font-size: 16 + px;
+  font-family: "TT Firs Neue Trl", sans-serif;
+  color: #494949;
+}
+.center2Catalog a:hover {
+  text-decoration: underline;
+}
+.endCatalog {
+  padding-top: 15px;
+  font-family: "TT Firs Neue Trl", sans-serif;
+}
+.endCatalog a {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+}
+.endCatalog a img {
+  width: 28px;
+}
+.endCatalog #Gmali {
+  font-size: 16px;
+  font-weight: 700;
+  color: #b92648;
+}
+.endCatalog a {
+  font-size: 25px;
+  font-weight: 700;
+  color: #25254c;
+}
+.CatalogFooter {
+  display: flex;
+  margin: 2vh 0;
+  gap: 2px;
+}
+.CatalogFooter img {
+  width: 30px;
+  height: 30px;
+}
+
+@media screen and (min-width: 800px) {
+  .catalog {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .catalog ul {
+    width: 50%;
+  }
+  .footerCatalog {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 90vh;
+    width: 37%;
+  }
+}

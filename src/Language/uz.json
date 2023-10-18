@@ -1,0 +1,157 @@
+{
+  "Firstpage": {
+    "FirstTitleOne": "SIZNI SEVADIGAN ",
+    "FirstTitleTwo": "JOY ",
+    "FirstTitleDescription": "Sizni Samarqand shahridagi zamonaviy ko'ngilochar markaz - Family Park savdo markaziga tashrif buyurishga taklif qilamiz.",
+    "FirstTitleButton": "Hoziroq tanishish"
+  },
+  "CinemaSchedualePage": {
+    "CinemaTitle": "Filmlar jadvali",
+    "CinemaSmallTitle": "Film prokatimizda jahon premyeralaridan xabardor bo'ling!",
+    "CinemaHall1": "ZAL 1",
+    "CinemaHall2": "ZAL 2"
+  },
+  "vacancy": {
+    "vacancyTitle": "BIZ BILAN ISHLASHNI HOHLAYSIZMI?",
+    "vacancySmallTitle": "FAMILY PARK jamoasiga a'zo bo'ling!",
+    "ourcompanyTitle": "Nima uchun bizning kompaniyamiz?",
+    "ourcompanyText1": "Rasmiy ishga joylashish",
+    "ourcompanyText2": "Oq ish haqi",
+    "ourcompanyText3": "Kasbiy tajribaning rivojlanishi",
+    "ourcompanyText4": "Zamonaviy va qulay ofis",
+    "ourcompanyText5": "Zamonaviy uskunalar",
+    "ourcompanyText6": "Kompaniya xodimlari uchun chegirmalar",
+    "vacancyBTN": "REZYUME QOLDIRISH ",
+    "vacancyFamily": "Family Park tomonidan ish o'rinlar",
+    "vacancyTenants": "Ijarachilar tomonidan ish joylari",
+    "vacansyModal": {
+      "vacansyModalTitle": "Rezyumeni qoldirish",
+      "vacansyModalTeaxt1": "FISH",
+      "vacansyModalTeaxt2": "Telefon raqam",
+      "vacansyModalTeaxt3": "Elektron manzil",
+      "vacansyModalTeaxt4Label": "Rezyume faylingizni ",
+      "vacansyModalTeaxt5": " yuklang (doc, pdf, docx, rtf)",
+      "vacansyModalTeaxt6": "Yoki rezyumeingizga havolani joylashtiring",
+      "vacansyModalBTN": " Yuborish",
+      "vacansyModalTeaxtErro1": " FIO maydoni bo'sh bo'lishi mumkin emas",
+      "vacansyModalTeaxtErro2": "Telefon raqam maydoni bo'sh bo'lishi mumkin emas",
+      "vacansyModalTeaxtErro3": "Elektron manzil maydoni bo'sh bo'lishi mumkin emas",
+      "vacansyModalTeaxtErro4": "Havola noto‘g‘ri",
+      "vacansyModalTeaxtErro5": "Siz rezyumega fayl biriktirishingiz yoki havolani kiritishingiz kerak",
+      "vacansyModal2Title": "Arizangiz muvaffaqiyatli yuborildi!!!",
+      "vacansyModal2BTN": "Asosiy sahifaga qaytish"
+    }
+  },
+  "SecondPage": {
+    "SecondPageTitleh1": "Ko'ngilochar",
+    "SecondPageTitleh1span1": " dunyoni </br> faqat",
+    "SecondPageTitleh1span2": " biz bilan ",
+    "SecondPageTitleh1span3": " kashf eting",
+    "SecondPageFlex1": "Restoranlar va ko'ngilochar do'konlar",
+    "SecondPageFlex2": "Ko'ngilochar joylar",
+    "SecondPageFlex3": "Jahon brendlari",
+    "SecondPageFlex4": "Har doim modada bo'lishni xohlaysizmi? Dunyoning yirik brendlari mavsum uchun kiyim tanlashda sizga juda mos keladi!",
+    "SecondPageFlexTwo1": " O'yin-kulgi",
+    "SecondPageFlexTwo1Text": "Do'stlaringiz va oilangiz bilan dam olishingiz mumkin bo'lgan muz maydoni, karting, bouling, kinoteatr ",
+    "SecondPageFlexTwo2": " Ovqat",
+    "SecondPageFlexTwo2Text": "Kafe va restoranlarda dam olish va yangi ingredientlardan tayyorlangan taomlardan bahramand bo'lish.",
+    "SecondPageFlexTwo3": "Xaridlar",
+    "SecondPageFlexTwo3Text": "Har doim modada bo'lishni xohlaysizmi? Dunyoning yirik brendlari mavsum uchun kiyim tanlashda sizga juda mos keladi!",
+    "SecondPageFlexTwo4": "Xizmatlar ",
+    "SecondPageFlexTwo4Text": "Tur chiptalari? Kiyimlar tiktirish? Bularning hammasini Family Parkda topishingiz mumkin!  "
+  },
+  "MagazinePage": {
+    "MagazinePageTitle": "Do'konlar",
+    "MagazinePageTitle2": "Katalog",
+    "MagazinePageBtn": "Hammasini ko'rish"
+  },
+  "MapPage":{
+    "mapTitle":"QANDAY BORISH MUMKIN"
+  },
+  "LastPage": {
+    "LastPageTitle": "BIZNING IJARACHIMIZ BO'LISHNI HOHLAYSIZMI?",
+    "LastPageTitleP": "Film prokatimizda jahon premyeralaridan xabardor bo'ling!",
+    "LastPageFormText1": "BIZNESINGIZ:",
+    "LastPageFormText2": "Savdo profili",
+    "LastPageFormText2Option1": "Do'kon",
+    "LastPageFormText2Option2": "Ovqat",
+    "LastPageFormText2Option3": "Ko'ngil ochar markaz",
+    "LastPageFormText2Option4": "Xizmatlar",
+    "LastPageFormText2Error": "Savdo profili bo'sh bo'lishi mumkin emas",
+    "LastPageFormText3": "Istalgan maydon",
+    "LastPageFormText3Error": "Istalgan maydon bo'sh bo'lishi mumkin emas",
+    "LastPageFormText4": "Brend/kompaniya nomi",
+    "LastPageFormText4Error": "Brend/kompaniya nomi bo'sh bo'lishi mumkin emas",
+    "LastPageFormText5": "Sizning aloqa ma'lumotlaringiz:",
+    "LastPageFormText6": "Aloqa qiluvchi shaxsning ismi",
+    "LastPageFormText6Error": "Aloqa qiluvchi shaxsning ismi bo'sh bo'lishi mumkin emas ",
+    "LastPageFormText7": "Elektron manzil",
+    "LastPageFormText7Error": "Elektron manzil bo'sh bo'lishi mumkin emas",
+    "LastPageFormText8": "Telefon raqam",
+    "LastPageFormText8Error": "Telefon raqam bo'sh bo'lishi mumkin emas",
+    "LastPageFormBtnText": "So'rovni yuborish "
+  },
+  "Footer": {
+    "WorkingTime": " Dushanba-Yakshanba 10:00 dan 23:00 gacha",
+    "SocialMedia": "Ijtimoiy tarmoqlar",
+    "Rules": "Qoidalar",
+    "Rulestext1": "Tashrif buyuruvchilar uchun qoidalar",
+    "Rulestext2": "Avtoturargoh qoidalari",
+    "Rulestext3": "Reklama berish qoidalari",
+    "FooterEndText": "Samarqand shahridagi tematik ko'ngilochar markaz"
+  },
+  "Catalog": {
+    "catalogText1": "Konsertlar va tadbirlar",
+    "catalogText2": "Savdo markazi xaritasi",
+    "catalogText3": "Filmlar jadvali",
+    "catalogText4": "Do'konlar",
+    "catalogText5": "Ovqat",
+    "catalogText6": "O'yin-kulgi va xizmatlar",
+    "catalogText7": "Aktsiyalar va chegirmalar",
+    "catalogText8": " Ijarachilar uchun",
+    "catalogText9": "Family Parkda ishlash",
+    "catalogText10": "Yo'qotilgan narsalar",
+    "catalogText11": "O'zbekiston, Samarqand shahar, Narpay ko'chasi 76a"
+  },
+  "OpenShop": {
+    "WorkingTime": "Ish tartibi",
+    "description": "Tavsif:",
+    "interesing": "Shuningdek, sizni qiziqtirishi mumkin:"
+  },
+  "RulesVisitors": {
+    "visistoryTitle": "FAMILY PARK hududida qoida va majburiy shartlar",
+    "visistoryText": "1. Atamalarni aniqlash <br /> FAMILY PARK-quyidagi manzilda joylashgan ijtimoiy-savdo markazi: ,  Samarqand shahri, Narpayskaya ko ' chasi 76. FAMILY PARK hududida savdo mavjud  galereya, restoran va kafelar, bolalar zonasi, supermarket. <br /> Mehmon-FAMILY PARK hududida joylashgan har qanday shaxs.  Ma'muriyat-tegishli vakolatli vakillar va xodimlar  uning nomidan va uning manfaati uchun harakat qiladigan FAMILY PARK egasi.  FAMILY PARK ish vaqti-ruxsat berilganda FAMILY PARK faol ish vaqti  Family PARK hududida tashrif buyuruvchilarning turar joylariga kirish. Soat haqida ma'lumot  ishlar veb-saytda, ijtimoiy tarmoqlarda va FAMILY PARK-ga kirish guruhlarida keltirilgan.  <br /> 2. Umumiy qoidalar <br /> 2.1. Ushbu qoidalar family PARK-da tashrif buyuruvchilar uchun xulq-atvor qoidalarini o'z ichiga oladi va  oilaviy PARK xizmatlaridan foydalanish; <br /> 2.2. Ushbu qoidalar respublikaning fuqarolik kodeksiga muvofiq ishlab chiqilgan  , O ' zbekiston Respublikasining iste' molchilar huquqlarini himoya qilish to ' g 'risida gi Qonuni,   , O ' zbekiston Respublikasining kurash to' g 'risida gi qonuni bilan  terrorizm bilan  va boshqalar.; <br /> 2.3. FAMILY PARK egasi va unga tayinlangan Ma'muriyat va (yoki)  u tomonidan olib kelingan xavfsizlik xizmati har qanday zarar uchun javobgar emas  oila bog'ida har qanday shaxsning mol-mulki, hayoti va sog'lig'iga sabab bo'lishi mumkin  Tashrif buyuruvchilar, shu jumladan harakatlar (harakatsizlik)tufayli  binolarning ijarachilari va (yoki) uchinchi shaxslar, shu jumladan har qanday shaxsning harakatlari (harakatsizligi)  Tashrif buyuruvchilar, shuningdek, har qanday mulk (narsalar) xavfsizligi uchun javobgar emas,  hujjatlar, pul mablag'lari, mablag'lar va boshqalar) oilada bo'lgan har qanday shaxslar  PARK, shu jumladan mehmonlar; <br /> 2.4. Vaqti-vaqti bilan FAMILY PARK ma'muriyati tomonidan ommaviy tadbirlar o'tkaziladi  bunday foto va video yozuvlarni amalga oshirish bilan FAMILY parkni ommalashtirish  tadbirlar. Oila bog'ida qolish mehmon uning roziligini beradi  ham shaxsan, ham voyaga etmagan/voyaga etmaganlarni suratga olish va video suratga olish  uning oila a'zolari, bunday tadbirlar doirasida; <br /> 2.5. Oila bog'ida qolish tashrif buyuruvchi, shuningdek, doimiy rozilik beradi  oilaviy parkda suratga olingan foto va video materiallardan bepul foydalanish uchun,  uning rasmlari va/yoki voyaga etmagan / voyaga etmaganlarning rasmlari  uning oila a 'zolari faoliyati to' g ' risida reklama, axborot xabarlari yaratishda  FAMILY PARK va FAMILY PARK faoliyati bilan bog'liq boshqa maqsadlarda, shuningdek  ko 'rsatilganlarni saqlash, ko' paytirish, tarqatish va qayta ishlashga rozilik beradi  foto va video materiallar; <br /> 2.6. Ushbu qoidalar bajarilishi shart va quyidagilarga nisbatan qo'llaniladi  agar Ma'muriyat va/yoki kelishuv bilan boshqacha tartib belgilanmagan bo'lsa, barcha tashrif buyuruvchilar  Tegishli shaxs bilan ma'muriyat; 2.7. Oilaning ichki va tashqi dizayni bo'yicha barcha mulkiy mualliflik huquqlari  PARK (shu jumladan dekor elementlarining joylashuvi, family PARK yoritish kontseptsiyasi,  oilaviy parkni rejalashtirish va boshqalar), intellektual mulk ob'ekti sifatida  (arxitektura asari) FAMILY PARK egasiga tegishli. Yaratish  oilaviy PARK binosi yoki uning rasmlari va/yoki video yozuvlari  qismi (binoning ichida ham, tashqarisida ham), tashrif buyuruvchi o'zining to'liq va  bunday fotosuratlardan foydalanish uchun FAMILY PARK egasiga so'zsiz rozilik  va/yoki videotasvirlar, shuningdek ular bilan yaratilgan boshqa asarlar  foydalanish, agar ular internetda bepul joylashtirilgan bo'lsa. Ko ' rsatilgan  fotosuratlar va/yoki videoyozuvlar va ulardan foydalangan holda yaratilgan asarlar  family PARK egasi tomonidan ularning manbasiga murojaat qilgan holda erkin foydalanish  nashrlar; <br /> 2.8. Foto, video yoki boshqa asarlarni yaratish va ulardan foydalanish taqiqlanadi  oilaviy PARK binosi yoki uning bir qismi (ichkarida ham, tashqarida ham) tasvirlangan  binolar), bunday harakatlar Ma'muriyat bilan kelishilgan hollar bundan mustasno  FAMILY PARK. <br /> 3. Savdo va ko'ngilochar markazda qolish <br /> 3.1. Ushbu qoidalarga rioya qilish va qonuniy talablarga rioya qilish sharti bilan  Ma'muriyat va (yoki) xavfsizlik xizmati har bir tashrif buyuruvchining imkoniyati bor  FAMILY PARK ish vaqtida FAMILY parkda bo'lish; <br /> 3.2. Oilaviy PARK hududida boshqa vaqtlarda bo'lish  FAMILY PARK ma'muriyati tomonidan belgilangan ish soatlari faqat mumkin  ma'muriyatning oldindan yozma roziligi bilan; 3.3. Mehmonlar soat tugashidan oldin FAMILY parkni oldindan tark etishlari kerak  ish (ish jadvali uzaytirilgan muassasalardan tashqari (restoranlar, supermarket va  va boshqalar)); 3.4. 12 yoshgacha bo'lgan bolalarni topishga faqat kattalar hamrohligida ruxsat beriladi. Xizmat  xavfsizlik 12 yoshgacha bo'lgan bolalarni FAMILY PARK hududiga kiritmaslik huquqiga ega  kattalar escorts. <br /> 4. Oila bog'ida bo'lganingizda, tashrif buyuruvchilarga quyidagilar taqiqlanadi: <br /> 4.1. Fuqarolarning hayoti yoki sog ' lig ' iga tahdid soluvchi harakatlarni (harakatsizlikni) amalga oshirish,  oila bog'iga zarar etkazishi va (yoki) egasining mulkiga zarar etkazishi mumkin  Binolar va mehmonlar, shu jumladan binolarni ijaraga oluvchilar; <br /> 4.2. Sovuq, o'qotar qurol, gaz qurollari va o'q-dorilarni FAMILY parkga olib boring,  portlovchi moddalar va portlovchi qurilmalar, elektroshok vositalari, zaharli moddalar,  radioaktiv, yonuvchan, pirotexnika, yonuvchan moddalar,  barcha turdagi mexanik yoki avtomatik purkagichlar; <br /> 4.3. FAMILY PARK hududida ma'muriyat bilan kelishmasdan amalga oshirish  savdo, tadbirkorlik faoliyatining boshqa turlari; <br /> 4.4. FAMILY PARK hududida ma'muriyat bilan kelishmasdan amalga oshirish  tijorat va marketing faoliyati, reklama joylashtirish, ommaviy tadbirlarni o'tkazish  tadbirlar, mablag ' yig'ish, xayriya tadbirlarini amalga oshirish; <br /> 4.5. FAMILY PARK hududida har qanday siyosiy tashviqotni o'tkazish,  bosma materiallarni tarqatish va shu bilan bog'liq boshqa tadbirlarni amalga oshirish  siyosiy faollik; <br /> 4.6. Ma'muriyat bilan kelishmasdan foto va video suratga olish, uchun  shaxsiy maqsadlar uchun selfi va fotosuratlar bundan mustasno  agar shunday bo'lsa, mobil telefonlar va/yoki havaskor kameralar yoki videokameralar  fotosurat va video suratga olishni amalga oshiruvchi shaxs o'z harakatlari bilan noqulaylik tug'dirmaydi  boshqa tashrif buyuruvchilarga oilaviy PARK va jamoat tartibini buzmaydi; <br /> 4.7. Ma'muriyat bilan kelishilmagan holda, family PARK-ni musiqa bilan o'ynang  asboblardan foydalanish, ovoz va video takrorlovchi qurilmalardan foydalanish (bundan mustasno  shaxsiy); <br /> 4.8. Baland ohanglarda gapiring, odobsiz so'zlarni qabul qiling, bajaring  boshqa tashrif buyuruvchilarning sha'ni va qadr-qimmatini haqorat qiladigan harakatlar; <br /> 4.9. Sumkalar, narsalar va boshqa narsalarni qarovsiz qoldirish; <br /> 4.10. Bolalarni qarovsiz qoldirish; <br /> 4.11. Oziq-ovqat zali, restoranlardan tashqarida ovqatlanish; oila hududida tashish  PARK (shu jumladan liftlarda va eskalatorlarda) issiq ovqat va ichimliklar (tashishdan tashqari germetik yopilgan idish / qadoqlash); <br /> 4.12. Buning uchun mo'ljallanmagan joylarda axlatni tashlang; <br /> 4.13. Spirtli ichimliklar va/yoki oilaviy parkga kiring/bo'ling  giyohvandlik, shuningdek, giyohvandlik, psixotrop va boshqalarni olib yurish  xavfli moddalar; <br /> 4.14. Giyohvandlik va psixotrop moddalarni iste'mol qilish; <br /> 4.15. Chekish (shu jumladan, lekin ular bilan cheklanmagan: nargile, vape, chekish aralashmalari,  elektron sigaretalar), belgilangan joylarda chekishdan tashqari; <br /> 4.16. Kiyimsiz, yalang'och tanasi bilan yoki aniq ifoda etadigan shaklda bo'lish  inson qadr-qimmati va jamoatchilikni haqorat qiladigan boshqalarga nisbatan hurmatsizlik  axloq; <br /> 4.17. Yugurish, eskalatorlarda yugurish, eskalatorda harakatga qarshi harakat qilish, sakrash,  to'siqlar, to'siqlar, texnik inshootlarga ko'tarilish, har qanday narsadan sakrash  balandligi, panjara orqali egilib, cheklangan kirish zonasiga, shu jumladan  ofis binolari, shuningdek, boshqa cheklangan kirish joylari  tegishli ma'lumot taxtalari, belgilar, belgilar; <br /> 4.18. Hammomlardan maqsadga muvofiq emas; <br /> 4.19. Family PARK-ga katta hajmdagi narsalar bilan kiring, ular quyidagilarni o'z ichiga oladi  uch o'lchov yig'indisi bo'yicha 180 sm dan oshadigan narsalar, sotib olingan tovarlar bundan mustasno  oilaviy PARK hududidagi savdo muassasalari; <br /> 4.20. Velosiped, konkida uchish, skeytbord, elektr skeytbord,  skuterlar, giroskooterlar va boshqa transport vositalari; <br /> 4.21. Oilaviy parkda hayvonlar bilan birga bo'lish, ruxsat berilgan hollar bundan mustasno  o 'zbekiston Respublikasi qonun hujjatlari bilan (xizmat ko' rsatuvchi itlardan foydalanish va h. k.); <br /> 4.22. Oilaviy PARK hududida qimor o'yinlarini tashkil qilish va o'tkazish  ishtirok etish. <br /> 5. Tashrif buyuruvchilarning vazifalari <br /> 5.1. Boshqalarga, boshqa mehmonlarga hurmat bilan munosabatda bo'lish,  xodimlar, Family PARK ma'muriyati; <br /> 5.2. Bino egasining mol-mulkiga va boshqa mehmonlarga g'amxo'rlik qilish, shu jumladan  oilaviy PARK ijarachilari, shuningdek, oilaviy mulkdagi boshqa mulklar  PARK. <br /> 6. Oilaviy PARK qoidalarini buzganlik uchun javobgarlik <br /> 6.1. Ushbu Qoidalarning talablarini buzgan mehmonlar, natijada ular  harakatlar (harakatsizlik) oilaviy parkga mulkiy zarar etkazdi,  Bino egasi va (yoki) boshqa tashrif buyuruvchilar fuqarolikka jalb qilinishi mumkin  belgilangan tartibda yetkazilgan zararni qoplash maqsadida javobgarlik to ' g ' risida  o ' zbekiston Respublikasining amaldagi qonunchiligi. <br /> 6.2. Ma'muriyat quyidagilarga qaratilgan barcha qonuniy choralarni ko'rish huquqiga ega  tegishli fuqarolik - huquqiy (moddiy), ma ' muriy huquqqa jalb etish  va (yoki) aybdor tashrif buyuruvchilarning jinoiy javobgarligi. <br /> 7. Oziq-ovqat kortiga tashrif buyurish qoidalari <br /> 7.1. Stol va stullarni siljitish va ko'chirish, ularni tashqariga olib chiqish taqiqlanadi  oziq-ovqat sudi hududlari"
+  },
+  "RulesParking": {
+    "ParkingTitle": " «FAMILY PARK» savdo markazining yer osti avtoturargohi qoidalari",
+    "ParkingTeaxt": "Er osti avtoturargohi hududiga kirish haqiqati sizning roziligingizni tasdiqlaydi  ushbu qoidalar va tashrif buyurganingizda bajarishingiz kerak bo'lgan harakatlar  mashinalar. <br /> Kunduzi 'FAMILY Park ' savdo markaziga tashrif buyuruvchilar uchun er osti avtoturargohi  bepul va tungi soat 23: 00 dan 9: 00 gacha 50 000 so'm turadi. Uchun  zarar yoki yo'qotishning oldini olish uchun siz talablarga rioya qilishingiz kerak  er osti avtoturargohi hududida yong'in xavfsizligi va u orqali harakatlanish  yo'l belgilari va belgilariga rioya qilgan holda soatiga 5 km gacha past tezlikda. Avtoturargoh hududiga quyidagi transport vositalariga kirish taqiqlanadi  ruxsat etilgan maksimal massa 3500 kg dan oshadi va/yoki o'rindiqlar soni,  haydovchi o'rindig'idan tashqari, sakkizdan ortiq, shuningdek, transport vositalari  katta yuk va transport vositalarining tarkibi, mototsikl uskunalari (mototsikllar,  mopedlar, skuterlar va boshqalar). <br /> Savdo markazi ma'muriyati zarar uchun javobgar emas  yoki transport vositasini o'g'irlash, shuningdek saqlangan narsalarning xavfsizligi uchun  transport vositasi. Avtoturargohda yoki to'g'ridan-to'g'ri kirish joyi yaqinida baxtsiz hodisa yuz bergan taqdirda  siz darhol Ma'muriyat xodimlaridan biriga xabar berishingiz kerak,  Ularning oqibatlarini tezda bartaraf etishga ko'maklashish uchun nazorat xizmatlari  Yo'l-transport hodisalari, shuningdek transport vositalarining to'siqsiz harakatini tiklash. To'xtash joylari soni cheklangan va agar ular band bo'lsa, to'xtash xizmatlari mavjud emas  taqdim etilishi mumkin. Ushbu fakt bo'yicha da'volar qabul qilinmaydi. Maqsadlar uchun  xavfsizlik va zarar etkazilishining oldini olish uchun talablarni buzish taqiqlanadi  yo'l belgilari, belgilar, yo'l harakati qoidalari, to'xtash va to'xtashga ruxsat berish transport vositalari ichida  buning uchun belgilanmagan joylar, transport vositasini to'xtash joyini amalga oshirish  dvigatel bilan ishlash va to'xtash joyidan o'tish va chiqish joylarini chalkashtirib yuborish,  yurish yo'llari. <br /> Er osti avtoturargohiga tashrif buyurganingizda chekish taqiqlanadi, shuningdek spirtli ichimliklar va  giyohvand moddalar. Cheksiz transport vositalariga kirish  yo'lovchilarga ruxsat berilmaydi. Avtomobillarni qarovsiz qoldirish taqiqlanadi. Ma'muriyat  Savdo markazi shaxsiy buyumlarning yo'qolishi yoki shikastlanishi uchun javobgar emas  avtoturargohga olib kelingan. Mast holda to'xtash joyiga kirish taqiqlanadi. Bilan  avtoturargohga tashrif buyurish ushbu qoidalarga rioya qilishi kerak. Ma'muriyat  Savdo markazi barcha er osti avtoturargohlariga tashrif buyuruvchilarga quyidagi jihozlardan foydalanishni buyuradi  to'xtash joylari va to'xtash joyiga vakili bo'lishi mumkin bo'lgan narsalarni olib kelmang  boshqalar uchun xavf. <br /> Avtoturargohga tashrif buyuruvchilarga har qanday murojaat qilish taqiqlanadi  avtoturargoh, infratuzilma yoki boshqa transport vositalarining shikastlanishi  vositalar. Yuqoridagi qoidalar buzilgan taqdirda savdo markazi ma'muriyati quyidagilarga ega  er osti avtoturargohiga kirishni taqiqlash va boshqa choralarni ko'rish huquqi  qoidabuzarliklarning oldini olish"
+  },
+  "RulesAdvertings": {
+    "AdvertisingTitle": "«FAMILY PARK» tematik va ko'ngilochar markazida reklama joylashtirish qoidalari",
+    "AdvertisingText": "1. Vitrinalarni bezatish: <br/> 1.1 belgilar, reklama va axborot materiallari 30 dan oshmasligi kerak%      vitrinaning umumiy maydoni. <br/>     1.2 mavzular (rasmlar, stilize qilingan fotosuratlar va boshqalar) shakli, rangi bo'yicha cheklovlarga ega emas,      tuzilishi (to'rtburchaklar, yumaloq, kvadrat yoki tartibsiz bo'lishi mumkin). <br/>     1.3 vitrinani tashkil etadigan uchastkalarning mazmuni axloqiy axloqiy me'yorlarga zid bo'lmasligi kerak (vitrinani loyihalashda sahnalarni aks ettiruvchi elementlardan foydalanmang      zo'ravonlik, pornografiya, irqchilik va boshqa elementlar). <br/>     1.4 vaqtinchalik uy qurilishi stikerlarini joylashtirish taqiqlanadi (ofis jihozlariga bosib chiqarish). <br/>     1.5 xodimlarni qidirish to'g'risidagi ma'lumotlar bilan reklama joylashtirish taqiqlanadi. Yaqinda      vaqt davomida ushbu ma'lumot FAMILY PARK rasmiy veb-saytida joylashtirilishi mumkin. <br/>     1.6. Internet-do'konlarning manzillarini derazalarga va reklamalarga joylashtirish taqiqlanadi      materiallar <br/>     1.7 vitrinalarni sharlar bilan bayramona bezash faqat davr uchun amalga oshiriladi      maxsus tadbirlarni o'tkazish. <br/>     1.8 vitrinani bezashdagi barcha o'zgarishlar marketing bo'limi bilan kelishilgan bo'lishi kerak      Oila bog'i 2 ish kunidan kechiktirmay. Oldindan vizualizatsiya bo'lishi kerak      pochta orqali yuborilgan familypark.uz@gmail.com. <br/>     1.9 reklama materiallarini joylashtirish oldindan majburiydir      savdo markazi ma'muriyati tomonidan imzolangan zarur hujjatlarni rasmiylashtirish (arizalar      uskunalarni olib kirish/olib chiqish uchun) <br/>     1.10 reklama materiallarini ijaraga olingan chakana savdo maydonidan tashqarida joylashtirish      vaqtinchalik stendlar, roll-up, o'rgimchaklar, podiumlar va boshqalarni o'z ichiga olgan savdoga yo'l qo'yilmaydi. <br/>     1.11 Ma'muriyat har qanday belgilarni, reklama belgilarini darhol markazdan olib tashlashni talab qiladi      noto'g'ri ishlab chiqilgan yoki ma'lumotlarni o'z ichiga olgan materiallar, qalqonlar,      o ' zbekiston Respublikasining 'reklama to' g 'risida'gi Qonuniga zid. <br/>     2. Fotosuratlar va videolarni suratga olish: <br/>     2.1 savdo markazida yoki uning atrofida suratga olish yoki video suratga olish taqiqlanadi (shu jumladan      ijaraga olingan bino) savdo markazi ma'muriyatining maxsus yozma ruxsatisiz.      Iltimos, barcha bunday so'rovlar kamida 24 soat oldin berilganligiga e'tibor bering      to'g'ri ko'rib chiqish uchun vaqt berish uchun rejalashtirilgan sessiyani o'tkazishdan oldin      ushbu masala. <br/>     3. Soundtrack: <br/>     3.1 ovozni kuchaytirish uskunalari yordamida ijro etiladigan musiqa,  <br/>     ijaraga olingan binolarda ovoz chiqaradigan uskunalar yoki jonli chiqishlar bo'lmasligi kerak      ruxsat etilgan hajm darajasidan tashqariga chiqish – 75 db. <br/>     3.2 tantanali va tantanali tadbirlarni o'tkazishda, joylashganda      ijaraga olingan xonadan tashqarida ovozni kuchaytirish uskunalari, musiqa balandligi darajasi emas      75 db dan oshishi va boshqa ijarachilarning faoliyatiga to'sqinlik qilishi kerak. <br/>     4.3 savdo galereyasi binolarida ovoz chiqaradigan uskunalardan foydalanish      savdo markazi ma'muriyatining ruxsatnomalari taqiqlanadi. <br/>     4. Marketing tadqiqotlari: <br/>     4.1 chakana savdo korxonasi / ijarachi tomonidan jalb qilingan taqdirda      bozor tadqiqotlari tashkilotlari/kompaniyalari ma'muriyatdan ruxsat olishlari kerak      Savdo markazi, umumiy foydalanish joylarida mijozlar bilan intervyu o'tkazishdan oldin. <br/>     5. Savdo markazida qo'shimcha reklama joylashtirish: <br/>     5.1 ijarachi savdo markazida aktsiyalar/tadbirlarni o'tkazish huquqiga ega      savdo markazining marketing bo'limi vakili bilan kelishilganidan keyingina (elektron pochta orqali xabar berish).      manzil familypark.uz@gmail.com). muvofiqlashtirish uchun siz to'liq ma'lumotlarni taqdim etishingiz kerak:      muddati, reklama namoyishi turi, shunga o'xshash barcha texnik hujjatlar. <br/>     5.2 qo'shimcha reklama tadbirlari / reklama plakatlari / audio reklama va boshqalar.      savdo markazi hududida tijorat shartlari asosida amalga oshiriladi/joylashtiriladi. <br/>     5.3 reklama materiallarini joylashtirish / tadbirlarni o'tkazish oldindan majburiydir      tashqi tomondan imzolangan zarur hujjatlarni rasmiylashtirish bilan birga keladi      savdo markazi ma'muriyati (uskunalarni olib kirish/olib chiqish uchun arizalar, savdo markaziga kirish). <br/>     5.4 savdo markazida quyidagi reklama tuzilmalarini joylashtirish taqiqlanadi: o'rgimchak,      standart va boshqa shunga o'xshash dizaynlar. <br/>     5.5 uy egasi qo'shimcha joylashtirishni rad etish huquqini o'zida saqlab qoladi      reklama tuzilmalari. <br/>     6. Saytda ma'lumotlarni joylashtirish: <br/>     6.1 rasmiy veb-saytda ijarachi quyidagi ma'lumotlarni joylashtirish huquqiga ega: <br/>     - Do'kon haqida ma'lumot bilan Word hujjati <br/>     - Vektorda logotip <br/>     - Do'kon jabhasi fotosurati <br/>     - Savdo markazimizdagi do'konning telefon raqami <br/>     - Do'kon veb-sayti <br/>     - Har bir do'kon uchun ma'lumotni alohida arxivga yuboring <br/>     6.2. Ijarachi tegishli bo'limda quyidagi ma'lumotlarni joylashtirish huquqiga ega      buning uchun aktsiyalar/chegirmalar taqdim etilishi kerak: <br/>     - aksiya/yangiliklar nomi (o ' zb., rus., ingliz. ) <br/>     - matn (o ' zb., rus., ingliz. ) <br/>     - rasm (hajmi 738x454, png formati) <br/>     7. Ijtimoiy tarmoqlardagi sahifalarda ma'lumotlarni joylashtirish: <br/>     7.1. Ijarachining faoliyati to'g'risidagi ma'lumotlar ijtimoiy tarmoqlardagi sahifalarda joylashtirilgan  <br/>     Quyidagi hollarda Facebook, Instagram: <br/>     - do'kon ochishda <br/>     - umumiy rubrikani o'tkazishda <br/>     - ijarachi tomonidan taqdim etilgan sovrin fondi bilan tanlov o ' tkazishda <br/>     - chegirmalar va yangi to'plamlar haqida ma'lumot <br/>     - maxsus takliflar haqida ma'lumot. <br/>     Ijtimoiy media uchun kontent talablari: <br/>     - post 1080 * 1080 jpeg <br/>     - Story 1920*1080 jpeg <br/>     - Aksiya to'g'risidagi ma'lumotlar bilan Word hujjati (qo'shimcha matn) <br/>     - Brend kitobini tahrirlash va moslashtirish qobiliyatimiz uchun qatlamlar bilan TIFF formati <br/>     - Vektorda logotip <br/>     - Hammasi bitta arxiv orqali yuboriladi <br/>     Do'koningizdagi har qanday yangiliklarni e'lon qiladigan barcha ma'lumotlar quyidagilarni amalga oshirishi mumkinligini unutmang      tovar aylanmasini sezilarli darajada oshiring. Qabul qilganingizda tarkibni yuboring. <br/>     8. Ixtiyoriy: <br/>     8.1 mashhurlar yoki taniqli shaxslarning barcha tashriflari haqida xabar berish kerak      savdo markazi ma'muriyati tashrifdan kamida 7 kun oldin. Savdo markazining marketing menejeri hamma narsani qiladi      tashrifni reklama qilishda yordam berish mumkin va savdo markazi ma'muriyati zarur choralarni ko'radi      xavfsizlik va xavfsizlik bo'yicha. Agar qo'shimcha choralar ko'rish maqsadga muvofiq deb hisoblansa      xavfsizlik, bunday tadbirlar va tegishli xarajatlar faqat quyidagilar hisobiga amalga oshiriladi      tegishli chakana savdo korxonasi. (elektron pochta orqali xabar berish. manzil      familypark.uz@gmail.com) <br/>     8.2 ijarachilar o'z faoliyatini alohida reklama qilish huquqiga ega yoki      do'kon, agar u savdo markazining reklama (reklama faoliyati) ga zid kelmasa      umuman. <br/>     8.3 barcha ta'mirlash va boshqa ishlar faqat 23:00 dan 9: 00 gacha amalga oshiriladi      ma'muriyat bilan oldindan kelishilgan ariza. <br/>     4. Savdo markazida har qanday faoliyatni amalga oshirish uchun ariza namunasi quyida keltirilgan. Barcha arizalar to'ldiriladi      16: 00 gacha, 18: 00 dan keyin ijarachi mumkin      ma'muriyat stolida imzolangan arizangizni oling"
+  },
+  "Last": {
+    "LastTitle": " MUHIM NARSANI YO'QOTDINGIZMI?",
+    "LastSmallTitle": " Qisqa shaklni to'ldiring va biz siz bilan bog'lanamiz",
+    "LastFormtext3": "Yo'qotilgan narsa: ",
+    "LastFormtext4": "Qaerda edingiz?",
+    "LastFormtext5": "Yo'qotish vaqti",
+    "LastFormtext6": "Izoh:",
+    "LastFormtext3Error": "Yo'qotilgan narsa bo'sh bo'lishi mumkin emas",
+    "LastFormtext4Error": "Yo'qotilgan joy bo'sh bo'lishi mumkin emas",
+    "LastFormtext5Error": "Yo'qotilgan vaqt bo'sh bo'lishi mumkin emas",
+    "LastFormtext6Error": "Izoh bo‘sh bo‘lishi mumkin emas"
+  },
+  "foodPage":{
+    "foodpageTitle":"Ovqat"
+  },
+  "entertainmentPage":{
+    "entertainmentPaggTitle":"O'YIN-KULGI VA XIZMATLAR"
+  },
+  "EventsPage":{
+    "EventsPageTitle":"TADBIRLAR"
+  },
+  "PromotionPage":{
+    "promotionPageTitle":"AKTSIYALAR VA CHEGIRMALAR"
+  }
+}

@@ -1,0 +1,8 @@
+.CardMagazineCarousel {
+  position: relative;
+  top: 0%;
+  z-index: 1000;
+}
+.react-multiple-carousel__arrow--left, .react-multiple-carousel__arrow--right {
+  display: block !important;
+}

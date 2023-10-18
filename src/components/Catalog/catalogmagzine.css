@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "Steppe bold";
+  src: url("../../Fonts/Steppe/Steppe-ExtraBold.ttf") format("ttf"),
+    url("../../Fonts/Steppe/Steppe-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: initial;
+}
+@import url('https://fonts.cdnfonts.com/css/tt-firs-neue-trl');
+.TitleMagzinne #titleCatalog {
+  font-family: "Steppe bold";
+  font-size: 48px;
+}
+.TitleMagzinne #Catalogtitle2{
+    font-size: 32px;
+    font-family: 'TT Firs Neue Trl', sans-serif;
+    padding-left: 3%;
+    font-weight: 500;
+    color:#fff;
+    
+}
+
+.TitleMagzinne{
+background:linear-gradient(310.2deg, #25254C 5.48%, #6A6DBD 102.12%);
+
+}
+
+@media screen and (min-width:800px) {
+  .TitleCatalog{
+    display: block !important;
+    padding-bottom: 180px !important;
+  }
+
+  .CatalogLinks{
+    position: relative;
+    top:-180px !important;
+  }
+  .TitleCatalog h3{
+    padding-left: 9% !important ;
+  }
+  .magazine{
+    grid-template-columns: 31%  31% 31%  !important ;
+    padding:2% 9%;
+
+  }
+}
+@media screen and (min-width:1000px){
+  .magazine{
+    grid-template-columns: 21%  21% 21% 21%  !important ;
+    padding:2% 9%;
+
+  }
+}
+

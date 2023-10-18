@@ -1,0 +1,17 @@
+@import url(https://fonts.cdnfonts.com/css/tt-firs-neue-trl);
+.rulesss p{
+    font-size: 16px;
+    padding-top: 1%;
+}
+.rulesss{
+    padding-left: 3%;
+    padding-right: 3%;
+    font-family: "TT Firs Neue Trl", sans-serif;
+}
+.rulesss h1 {
+    background: linear-gradient(310.2deg, #25254C 5.48%, #6A6DBD 102.12%);
+    background-clip: text;
+    color: transparent;
+    font-size: 25px;
+    
+}

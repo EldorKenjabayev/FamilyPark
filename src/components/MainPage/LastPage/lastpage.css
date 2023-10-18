@@ -1,0 +1,167 @@
+@font-face {
+  font-family: "Steppe";
+  src: url("../../../Fonts/Steppe/Steppe-ExtraBold.ttf") format("ttf"),
+    url("../../../Fonts/Steppe/Steppe-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Steppe Black";
+  src: url("../../../Fonts/Steppe/Steppe-Black.woff") format("woff"),
+    url("../../../Fonts/Steppe/Steppe-Black.ttf") format("woff");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Steppe bold";
+  src: url("../../../Fonts/Steppe/Steppe-ExtraBold.ttf") format("ttf"),
+    url("../../../Fonts/Steppe/Steppe-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: initial;
+}
+
+@font-face {
+  font-family: "TT Firs Neue Outeline Trial";
+  src: url("../../../Fonts/TTFirsNeue-Regular (1).ttf")
+      format("ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.LastTitle{
+    background-color: #CA3155;
+    color:#fff;
+
+}
+
+.LastTitle h1 {
+  font-size: 32px;
+  width: 95%;
+  text-transform: uppercase;
+  padding-left: 3%;
+  font-family: "Steppe";
+  padding-top: 110px;
+  padding-bottom: 5px;
+}
+
+.LastTitle p {
+  font-family: "Steppe";
+  text-transform: capitalize;
+  font-size: 20px;
+  padding-left: 3%;
+  width: 93%;
+  padding-bottom: 22vh;
+}
+form h3{
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: 'Steppe bold';
+  font-weight: 900;
+  color: #25254C;
+  position: relative;
+  top: -13px;
+}
+ .btnPost {
+  width: 60% !important;
+  font-family: 'Steppe bold';
+  font-weight: 800;
+  font-size: 13px;
+  margin: 3vh 15vw;
+  background: rgb(234,73,110);
+  background:linear-gradient(0deg, rgba(234,73,110,1) 41%, rgba(196,44,80,1) 99%);
+}
+
+
+.btnPost:active{
+  transition: 0.4s all linear;
+transform: scale(1.01);
+background: rgb(242,142,165);
+background: linear-gradient(266deg, rgba(242,142,165,1) 35%, rgba(196,44,80,1) 99%);
+font-size: 17px;
+}
+.FormLsatpage .formlastpageBox label{
+  margin-bottom: 15px;
+}
+/* .FormLsatpage .formlastpageBox .LabelPhone{
+  margin-bottom: 1px !important;
+} */
+form label span{
+  font-size: 18px;
+  font-family: 'Steppe';
+  font-weight: 600;
+  position: relative;
+  color: #888888;
+}
+
+form input{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 15px;
+  cursor: text;
+  font-family: 'Steppe';
+  border:none;
+  background:#F6F6F6;
+  border-bottom:1px solid #888888;
+}
+form select{
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border:none;
+  background:#F6F6F6;
+  font-family: 'Steppe';
+  border-bottom:1px solid #888888;
+}
+form select option{
+  font-size: 16px;
+  width: 70%;
+  background:#F6F6F6;
+  margin: 0 auto;
+}
+
+.special-label{
+  display: none;
+}
+.flag-dropdown  {
+  display: none;
+}
+.style-error{
+  color: red;
+  font-family: 'Steppe';
+  position: relative;
+  top: -5px;
+  font-size: 10px;
+}
+
+@media screen and (min-width:800px){
+  .FormLsatpage{
+    flex-direction: row !important;
+    justify-content: space-between !important;  
+    width: 90% !important;
+  }
+  .formlastpageBox{
+    width: 45%;
+  }
+  .FormLsatpage .formLastpageBox1 {
+    position: relative;
+    top: 10px;
+  }
+  .btnLastForm{
+    position: relative;
+    left: -115%;
+    font-size: 16px;
+  }
+  .LastRequestForm{
+    height: 50%;
+  }
+  .LastPage{
+    height: 100vh;
+  }
+  .LastTitle h1{
+    font-size: 60px;
+  }
+  .LastTitle p{
+    font-size: 30px;
+  }
+}

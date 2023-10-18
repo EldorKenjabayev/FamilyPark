@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "Steppe";
+    src: url("../../../Fonts/Steppe/Steppe-ExtraBold.ttf") format("ttf"),
+      url("../../../Fonts/Steppe/Steppe-Black.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+  }
+.mapPage-Flex h3{
+    font-family: "Steppe";
+    font-weight: 800;
+    padding: 2% 0;
+    font-size: 18px;
+}
+.TitleMagzinne h1{
+    font-family: "Steppe";
+    font-weight: 900;
+    padding: 0 3%;
+    padding-bottom: 2%;
+    font-size: 27px;
+    color:#fff;
+}
+@media screen and (min-width:800px){
+    .mapPage-Flex{
+        width: 45%;
+    }
+    .mapPage-Map {
+        height: 40vh;
+    }
+
+    .titlemap{
+        font-size: 45px !important;
+        width: 100%;
+    }
+    .titlemap h1{
+        width: 100%;
+    }
+    
+    .TitleMagzinne h1{
+        font-size: 55px;
+    }
+}

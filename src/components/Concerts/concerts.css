@@ -1,0 +1,162 @@
+@import url("https://fonts.cdnfonts.com/css/tt-firs-neue-trl");
+.concertsHeader h1 {
+  font-size: 40px;
+  font-family: "TT Firs Neue Trl", sans-serif;
+  font-weight: 900;
+  background-image: linear-gradient(310.2deg, #1c1c3b 5.48%, #6a6dbd 102.12%);
+  background-clip: text;
+  color: transparent;
+}
+@font-face {
+  font-family: "Steppe";
+  src: url("../../Fonts/Steppe/Steppe-Bold.ttf") format("ttf"),
+    url("../../Fonts/Steppe/Steppe-Bold.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+
+.concertsPlayer {
+  height: 25%;
+}
+
+.concertsCenter {
+  padding-top: 3vh;
+ 
+}
+.concertsCenter .date{
+    font-size: 24px;
+    font-family: "Steppe";
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: #DD3F64;  
+}
+.concertsCenter .title-center{
+    font-size: 32px;
+    font-family: "TT Firs Neue Trl", sans-serif;
+    font-weight: 600;
+    background-image: linear-gradient(310.2deg, #1c1c3b 5.48%, #6a6dbd 102.12%);
+    background-clip: text;
+    color: transparent;
+    line-height: 33px;
+    padding-top: 1.5vh;
+}
+.concertsCenter .orienter{
+    font-size: 22px;
+    font-family: "TT Firs Neue Trl", sans-serif;
+    font-weight: 400;
+    color: #282850;
+    text-transform: uppercase;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.concertsFooter h3{
+    font-family: 'Steppe';
+    font-size: 24px;
+    font-weight: 700;
+    color: #343464;
+    padding-bottom: 5px;
+}
+.concertsFooter p{
+    font-size: 18px;
+    font-family: "TT Firs Neue Trl", sans-serif;
+}
+.concertsBtn{
+  padding: 20px 40px;
+  border:none;
+  border-radius: 40px;
+  font-family: 'Steppe';
+  margin-top: 40px;
+  background:linear-gradient(310.2deg, #FA557B 5.48%, #BB2649 102.12%);
+  color:#fff;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.concertsBtn:active{
+  background:linear-gradient(310.2deg, #BB2649  5.48%, #FA557B 102.12%);
+}
+
+.concertImgBlock{
+  height: 150px !important;
+}
+@media screen and (min-width:450px) {
+  .concertImgBlock{
+    height: 180px !important;
+  }
+  
+}
+@media screen and (min-width:550px) {
+  .concertImgBlock{
+    height: 210px !important;
+  }
+  .eventsVideos{
+    height: 300px;
+  }
+  
+}
+@media screen and (min-width:650px) {
+  .concertImgBlock{
+    height: 240px !important;
+  }
+  
+}
+@media screen and (min-width:700px){
+  .eventsVideos{
+    height: 350px;
+  }
+}
+@media screen and (min-width:800px){
+  .eventsVideos{
+    height: 380px;
+  }
+  .concertsCenter{
+    flex-direction: row-reverse !important;
+    justify-content: space-between !important;
+    padding-right: 5%;
+  }
+  .concertsFooter{
+    text-align: center;
+  }
+  .concertsCenter .title-center{
+    padding-top: 0px !important;
+  }
+  .concertsHeader h1{
+    font-size: 60px !important;
+  }
+  .title-center{
+    font-size: 45px !important;
+  }
+  .orienter{
+    font-size: 28px !important;
+  }
+  .concertsFooter h3{
+    font-size: 32px !important;
+    font-weight: 800;
+
+  }
+  .concertsFooter p{
+    font-size: 23px !important;
+  }
+
+}
+@media screen and (min-width:1000px){
+  .eventsVideos{
+    height: 420px;
+  }
+}
+@media screen and (min-width:1000px){
+  .eventsVideos{
+    height: 420px;
+  }
+}
+@media screen and (min-width:1200px){
+  .eventsVideos{
+    height: 500px;
+  }
+}
+@media screen and (min-width:1400px){
+  .eventsVideos{
+    height: 600px;
+  }
+}

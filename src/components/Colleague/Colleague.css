@@ -1,0 +1,86 @@
+@import url("https://fonts.cdnfonts.com/css/tt-firs-neue-trl");
+@font-face {
+  font-family: "Steppe bold";
+  src: url("../../Fonts/Steppe/Steppe-Bold.ttf") format("ttf"),
+    url("../../Fonts/Steppe/Steppe-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: initial;
+}
+#Catalogtitle1 {
+  font-family: "TT Firs Neue Trl", sans-serif;
+  padding-left: 3%;
+  font-weight: 500;
+  color: #fff;
+  font-size: 24px;
+}
+.questions {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+  gap: 12px;
+  text-align: start;
+}
+.questions p {
+  font-size: 14px;
+  font-family: "Steppe";
+  font-weight: 600;
+}
+
+.block-questions {
+  width: 94%;
+  margin: auto;
+  text-align: center;
+  padding: 5% 2%;
+  border-radius: 15px;
+  background-color: #f1f1f1;
+  backdrop-filter: blur(10px);
+  position: relative;
+  top: -40px;
+}
+.block-questions h4 {
+  font-family: "Steppe black";
+  font-size: 20px;
+  color: #181a3d;
+}
+.room {
+  font-size: 25px;
+}
+
+@media screen and (min-width: 700px) {
+  .vacancy {
+    display: grid !important;
+    grid-template-columns: 45% 45%;
+  }
+  .vacancyPage .btnPost{
+    width: 25% !important;
+  }
+}
+@media screen and (min-width: 800px) {
+  .TitleCatalog #Catalogtitle1 {
+    padding-left: 8% !important;
+  }
+  .block-questions{
+    width: 84%;
+  }
+  .accardionVacancy{
+    width: 90% !important;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .vacancy {
+    grid-template-columns: 31% 31% 31%;
+    gap: 2vh
+  }
+
+  .block-questions {
+    padding-top: 3%;
+  }
+  .block-questions h4 {
+    text-align: start;
+    padding-left: 9%;
+    font-size: 28px;
+  }
+
+}

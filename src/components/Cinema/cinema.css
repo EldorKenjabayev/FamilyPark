@@ -1,0 +1,103 @@
+@font-face {
+  font-family: "Steppe bold";
+  src: url("../../Fonts/Steppe/Steppe-Bold.ttf") format("ttf"),
+    url("../../Fonts/Steppe/Steppe-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: initial;
+}
+@import url('https://fonts.cdnfonts.com/css/tt-firs-neue-trl');
+.accardionbackground {
+  width: 94%;
+  margin: auto;
+}
+
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root:last-of-type {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root:first-of-type {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.MuiAccordion-root::before {
+  display: none;
+}
+.css-hzn0oj-MuiPaper-root-MuiAccordion-root:first-of-type {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.room {
+  font-family: "Steppe bold";
+  font-size: 30px;
+  background: linear-gradient(310.2deg, #25254c 5.48%, #535593 102.12%);
+  background-clip: text;
+  color: transparent;
+}
+.accardionDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  padding: 13px 5px ;
+  color: #25254C;
+  position: relative;
+  top: -10px;
+}
+.accardionDetails h3{
+    font-family: 'TT Firs Neue Trl', sans-serif; 
+    font-weight: 700;
+    font-size: 15px;
+}
+.accardionDetails p{
+    font-family: 'TT Firs Neue Trl', sans-serif; 
+    font-size: 15px;
+    font-weight: 400;
+}
+.cinematitle h2{
+  font-family: 'Steppe bold';
+  font-weight: 900;
+  font-size: 32px;
+  color:#fff;
+
+}
+
+@media screen and (min-width:800px){
+  .cinematitle h4{
+    padding-left: 8% !important;
+    font-size: 45px !important;
+  }
+  .cinematitle h1{
+    font-size: 60px !important;
+  }
+  
+  .cinematitle #datacinema{
+    font-size: 60px !important;
+    text-align: center !important;
+    padding-top: 5% !important;
+    padding-bottom: 3vh !important;
+  }
+.accardionPosition{
+  position: relative;
+  top: -50px;
+  padding: 10px !important;
+}
+.accardionbackground{
+  width: 88%;
+}
+.room {
+  font-size: 50px;
+}
+.iconCinemaAccardion{
+  padding: 5px;
+  font-size: 55px !important;
+  font-weight: 900;
+}
+.accardionDetails h3{
+  font-size: 30px;
+}
+.accardionDetails p{
+font-size: 24px;
+font-weight: 600;
+}
+  
+}

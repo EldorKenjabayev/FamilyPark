@@ -1,0 +1,164 @@
+@font-face {
+  font-family: "TT Firs Neue Bold Outeline Trial";
+  src: url("../../../Fonts/TT Firs Neue Trial 1-100/TT Firs Neue Trial Black Italic.ttf")
+      format("otf"),
+    url("../../../Fonts/TT Firs Neue Trial 1-100/TT Firs Neue Bold Outline Trial.otf")
+      format("ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@import url(https://fonts.cdnfonts.com/css/tt-firs-neue-trl);
+:root {
+  --blue-gradient: linear-gradient(310.2deg, #25254c 5.48%, #6a6dbd 102.12%);
+}
+.FirstImg {
+  width: 100%;
+  height: 200px;
+  background-image: url("https://family.khm473.ru/assets/images/Fasad.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top: 0%;
+}
+
+.FirstTitle {
+  font-weight: 900;
+  font-size: 38px;
+  line-height: 45px;
+  padding: 40px 3%;
+  font-family: "TT Firs Neue Bold Outeline Trial", sans-serif;
+}
+
+.FirstTitleOne {
+  font-weight: 900;
+  background-image: linear-gradient(310.2deg, #1c1c3b 5.48%, #6a6dbd 102.12%);
+  background-clip: text;
+  color: transparent;
+}
+
+.FirstTitleTwo {
+  font-weight: 900;
+  background-image: linear-gradient(#57081a 0%, #bb2649 100%);
+  background-clip: text;
+  color: transparent;
+  padding: 0px 6%;
+}
+
+.FirstText p {
+  font-size: 17px;
+  line-height: 20px;
+  width: 100%;
+  padding-left: 3%;
+  padding-right: 5%;
+  font-family: "TT Firs Neue Trl", sans-serif;
+}
+
+.BtnGradient {
+  background: linear-gradient(310.2deg, #25254c 5.48%, #6a6dbd 102.12%);
+  cursor: pointer;
+  border: none;
+  margin-left: 3%;
+  border-radius: 35px;
+  color: #fff;
+  padding: 20px 22px;
+  text-transform: uppercase;
+  user-select: none;
+}
+.BtnGradient span {
+  font-weight: 500;
+  width: 100%;
+  font-family: "TT Firs Neue Trl", sans-serif;
+}
+
+.BtnGradient:active {
+  transform: scale(1.04);
+  transform: 0.5s all;
+  background: linear-gradient(310.2deg, #777789 5.48%, #404278 102.12%);
+}
+
+.linkFirstPage{
+  display: inline;
+  padding-top: 2vh;
+  padding-left: 16%;
+  padding-right: 16%;
+  text-decoration: none;
+  justify-content: center;
+  align-items:center;
+  padding-bottom: 13%;
+}
+
+
+.background-menu{
+  height: 100%;
+}
+
+@media screen and (min-width:500px){
+  .FirstImg{
+    height: 250px;
+  }
+}
+@media screen and (min-width:600px){
+  .FirstImg{
+    height: 300px;
+  }
+}
+@media screen and (min-width:700px){
+  .FirstImg{
+    height: 350px;
+  }
+}
+@media screen and (min-width:800px){
+  .FirstImg{
+    height: 420px;
+  }
+
+  .background-menu{
+    display: flex;
+    align-items: flex-start;
+  }
+  .firstTitle-Text{
+    width: 70%;
+  }
+
+  .firstTitle-Text .FirstTitle{
+    font-size: 40px;
+    padding-top: 7%;
+    padding-bottom: 15%;
+    
+  }
+  .FirstText {
+    padding-top: 7%;
+    padding-bottom: 15%;
+  }
+  .firsPageBtn{
+    position: absolute;
+    left: 0;
+    top: -100%;
+  }
+
+}
+
+@media screen and (min-width:1000px){
+.firstTitle-Text h1{
+  font-size: 60px !important;
+  line-height: 60px;
+}
+.FirstText p{
+  font-size: 20px;
+  padding-bottom: 2vh;
+}
+}
+
+@media screen and (min-width:1400px){
+.firstTitle-Text h1{
+  font-size: 75px !important;
+  line-height: 75px;
+}
+.FirstText p{
+  font-size: 25px;
+  line-height: 25px;
+  padding-bottom: 2vh;
+}
+}

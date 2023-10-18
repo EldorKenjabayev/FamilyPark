@@ -1,0 +1,35 @@
+@import url(https://fonts.cdnfonts.com/css/tt-firs-neue-trl);
+
+.carousel .slide {
+  text-align: start;
+  font-family: "TT Firs Neue Trl", sans-serif;
+  color: #25254c;
+  padding-left: 1%;
+}
+.cardcorusel {
+  border: 1px solid transparent;
+  overflow: hidden;
+  background: none;
+  user-select: none;
+  border-radius: 25px;
+  padding: 6%;
+  background-color: rgba(206, 207, 238, 0.3);
+  backdrop-filter: blur(15px);
+  font-family: "TT Firs Neue Trl", sans-serif;
+  color: #25254c;
+  z-index: 100;
+  cursor: pointer;
+
+}
+.cardcorusel p{
+    padding: 10px 0;
+}
+
+li.style {
+    flex: 1 1 auto;
+    position: relative;
+    width: 200px;
+}
+.react-multiple-carousel__arrow--left, .react-multiple-carousel__arrow--right {
+    display: none;
+}

@@ -1,0 +1,163 @@
+@import url("https://fonts.cdnfonts.com/css/tt-firs-neue-trl");
+@font-face {
+  font-family: "Steppe";
+  src: url("../../../Fonts/Steppe/Steppe-Regular.ttf") format("ttf"),
+    url("../../../Fonts/Steppe/Steppe-Regular.woff") format("woff");
+  font-weight: bold;
+  font-style: initial;
+}
+.ModalCollegau {
+  width: 90%;
+  height: 100%;
+  margin: auto;
+
+  border-radius: 20px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.ModalCollegau .modal-container {
+  background-color: #dbd8d8;
+  padding: 3% 3%;
+  border-radius: 15px;
+  position: absolute;
+  width: 90%;
+  right: 5%;
+  margin-top: 37px;
+  gap: 1vh;
+  z-index: 2222;
+}
+.ModalCollegau .modal-container form {
+  width: 90%;
+  margin: auto;
+}
+.ModalCollegau .modal-container input {
+  background-color: #dbd8d8;
+  padding: 5px;
+  font-size: 14px;
+}
+.ModalCollegau .modal-container form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.5vh;
+}
+.ModalCollegau .modal-container form label span {
+  font-size: 12px;
+}
+.ModalCollegau .modal-container form label {
+  margin-bottom: 5px;
+}
+
+.ModalCollegau h1 {
+  font-family: "TT Firs Neue Trl", sans-serif;
+  font-size: 27px;
+  font-weight: 600;
+  padding-bottom: 5%;
+}
+.input-file-box label {
+  position: relative;
+  cursor: pointer;
+  color: #7878ff;
+}
+.input-file-box p .inputFile {
+  display: none;
+}
+.input-file-box {
+  border: 1px dashed #000;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-file-text {
+  font-family: "Steppe";
+  font-size: 12px;
+}
+.input-file-box p {
+  font-size: 12px;
+  width: 60%;
+  font-family: "Steppe";
+}
+.ModalCollegau .style-error  {
+  position: relative;
+  top: 0px;
+}
+.modal-vacancy .phone-error {
+  position: relative;
+  top: 0px;
+}
+@media screen and (min-width: 300px) {
+  .css-1qbbsik {
+    width: 96%;
+    margin: auto;
+    margin-top: 10vh;
+    height: 40vh !important;
+    border-radius: 25px !important;
+    overflow-y: auto !important;
+  }
+  .ModalCollegau {
+    overflow-y: auto;
+  }
+}
+@media screen and (min-width: 600px) {
+  .css-1qbbsik {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 800px) {
+  .css-1qbbsik {
+    width: 60%;
+  }
+  .ModalCollegau h1{
+    padding-bottom: 3%;
+    font-size: 28px !important;
+  }
+}
+@media screen and (min-width: 300px) {
+  .ModalCollegau .modal-container {
+    top: 10%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .modal-vacancy {
+    grid-template-columns: 32% 32% 32% !important;
+  }
+
+  .ModalCollegau .css-1qbbsik{
+    margin-top: 10vh;
+  }
+  .input-file-box p {
+    width: 100%;
+    text-align: center;
+  }
+  .input-file-box,
+  .resumeLink {
+    width: 90%;
+    margin: auto;
+  }
+
+  .modal-vacancy .react-tel-input {
+    margin-bottom: 22px;
+  }
+  .modal-vacancy .style-error {
+    position: relative;
+    top: -5px;
+  }
+
+  #vacancyPhone {
+    position: relative;
+    top: 2px;
+  }
+  .input-file-text {
+    text-align: center;
+  }
+  .modal-vacancy .phone-error {
+    position: relative;
+    top: -13px;
+  }
+  .modalvacansyBtn {
+    width: 30% !important;
+  }
+}

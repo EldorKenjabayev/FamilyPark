@@ -1,0 +1,134 @@
+@font-face {
+  font-family: "Steppe";
+  src: url("../../../Fonts/Steppe/Steppe-ExtraBold.ttf") format("ttf"),
+    url("../../../Fonts/Steppe/Steppe-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Steppe Black";
+  src: url("../../../Fonts/Steppe/Steppe-Black.woff") format("woff"),
+    url("../../../Fonts/Steppe/Steppe-Black.ttf") format("woff");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Steppe bold";
+  src: url("../../../Fonts/Steppe/Steppe-ExtraBold.ttf") format("ttf"),
+    url("../../../Fonts/Steppe/Steppe-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: initial;
+}
+.FooterStart {
+  padding-top: 5vh;
+  padding-bottom: 2vh;
+}
+.FooterStart .LinkFooter {
+  font-family: "Steppe bold";
+  font-size: 20px;
+
+  line-height: 28px;
+  color: #25254c;
+}
+.FooterStart .LinkFooter:hover {
+  text-decoration: underline;
+}
+.FooterCenter {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.FooterCenterDisplay{
+    width: 50%;
+}
+.FooterCenter ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+  padding-top: 7%;
+}
+.FooterCenter ul h3 {
+  padding-bottom: 1.5vh;
+  font-family: "Steppe bold";
+  color: #181a3d;
+  font-size: 16px;
+}
+.clockFooter{
+    font-size: 14px;
+    font-family: "Steppe";
+    color: #181a3d;
+    padding-top: 1vh;
+    padding-bottom: 3vh;
+}
+.clockFooter img{
+    position: relative;
+    top: -2px;
+}
+.FooterCenter ul .LinkFooter {
+  display: contents;
+  gap: 1vw;
+  font-family: "Steppe";
+  font-size: 14px;
+  color: #000;
+}
+.FooterCenter ul .LinkFooter span{
+    display: flex;
+    align-items:center;
+    gap: 2vw;
+}
+.FooterCenter ul .LinkFooter span:hover{
+    text-decoration: underline;
+}
+.FooterCenterDisplay2 ul .LinkText:hover{
+text-decoration: underline;
+}
+.FooterCenter ul .LinkFooter img {
+  width: 20px;
+  height: 20px;
+}
+.FooterCenter :nth-child(2) .LinkFooter {
+  width: 95%;
+}
+.FooterCenter ul .LinkFooter:hover {
+  text-decoration: underline;
+  transition: 0.5s all linear;
+}
+
+.FooterEnd{
+    font-size: 20px;
+    font-family: "Steppe";
+    text-align: center;
+}
+.logoFooterandTex{
+  display: none !important;
+}
+
+@media screen and (min-width:1200px) {
+  .logoFooterandTex{
+    display: block !important;
+  }
+
+  .displayFooter1{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 3vw;
+  }
+
+  .LogoFooterMoble{
+    display: none !important;
+  }
+
+  .Footer{
+    display:flex ;
+    justify-content: space-between;
+    gap: 10vw;
+  }
+
+  .FooterEndText{
+    display: none;
+  }
+  .FooterCenterDisplay{
+    position: relative;
+    top: 20px;
+  }
+}

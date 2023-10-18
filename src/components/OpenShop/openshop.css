@@ -1,0 +1,148 @@
+@import url(https://fonts.cdnfonts.com/css/tt-firs-neue-trl);
+@font-face {
+  font-family: "Steppe Black";
+  src: url("../../Fonts/Steppe/Steppe-Black.woff") format("woff"),
+    url("../../Fonts/Steppe/Steppe-Black.ttf") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+.openshopImg a span img {
+  width: 26px;
+  height: 27px;
+}
+.operatingmode {
+  padding-left: 3%;
+  color: #25254c;
+  padding-bottom: 2.5vh;
+}
+.operatingmode h2 {
+  font-family: "TT Firs Neue Trl", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+.operatingmode p {
+  font-family: "TT Firs Neue Trl", sans-serif;
+  font-size: 22px;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+.description {
+  padding-left: 3%;
+  color: #25254c;
+}
+.description h3 {
+  font-size: 30px;
+  font-family: "Steppe";
+  font-weight: 600;  
+}
+.description p{
+    padding-top: 2%;
+    font-size: 16px;
+    line-height: 130%;
+    font-family: "TT Firs Neue Trl", sans-serif;
+}
+
+.openshopFooter h4{
+    font-family: "Steppe";
+    font-size: 20px;
+    padding-left: 3%;
+    padding-top: 5%;
+    padding-bottom: 4%;
+    color: #25254c;
+}
+
+@media screen and (min-width:500px){
+  .corusell{
+    width: 90%;
+
+  }
+}
+
+@media screen and (min-width:800px){
+  .operatingmode{
+    color: #fff !important;
+  }
+  .openshopFooter h4{
+    padding-top: 0 !important;
+    padding-left: 8%;
+  }
+  .description p{
+    width: 80%;
+  }
+  .openshopImg {
+    position: relative;
+  left: 1px;
+  }
+  .operatingmodeText{
+    padding-bottom: 20px;
+ 
+  }
+  .corusell{
+    flex-direction: column;
+  }
+  .corusellbig{
+    width: 100%;
+    height: 78%;
+  }
+
+  .corusellmini{
+    height: 28%;
+    width: 100%;
+    flex-direction: row;
+  }
+
+  .corusellmini .corusellminiBox{
+    height: 100%;
+    width: 32%;
+  }
+
+  .TitleMagzinne h3{
+    padding-left: 8% !important;
+  }
+  .OpenRenter{
+    padding-bottom: 140px !important;
+  }
+
+  .flexRenter{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -120px;
+  }
+  .RenterCorusell{
+    width: 49%;
+  }
+  .RenterInfo{
+    width: 47%;
+  }
+}
+
+@media screen and (min-width:1000px){
+
+  .corusellbig,  .corusellmini{
+    width: 90%;
+  }
+}
+
+@media screen and (min-width:1150px){
+  .RenterCorusell{
+    width: 40%;
+  }
+  .corusellbig,  .corusellmini{
+    width: 80%;
+  }
+}
+@media screen and (min-width:1350px){
+
+  .corusellbig,  .corusellmini{
+    width: 70%;
+  }
+}
+@media screen and (min-width:1550px){
+
+  .corusellbig,  .corusellmini{
+    width: 70%;
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "Firstpage": {
+    "FirstTitleOne": "A PLACE, WHERE ",
+    "FirstTitleTwo": "YOU ARE LOVED ",
+    "FirstTitleDescription": "We invite you to visit a modern theme and entertainment center in the city of Samarkand - the Family Park shopping center",
+    "FirstTitleButton": "read now"
+  },
+  "CinemaSchedualePage": {
+    "CinemaTitle": "Movie Schedule",
+    "CinemaSmallTitle": "Stay up to date with world premieres in our film distribution!",
+    "CinemaHall1": "HAll 1",
+    "CinemaHall2": "HAll 2"
+  },
+  "vacancy": {
+    "vacancyTitle": "WANT TO WORK WITH US?",
+    "vacancySmallTitle": "Become part of the FAMILY PARK team!",
+    "ourcompanyTitle": "Why our company?",
+    "ourcompanyText1": "Official employment",
+    "ourcompanyText2": "White wages",
+    "ourcompanyText3": "Professional and career development",
+    "ourcompanyText4": "Stylish and comfortable office",
+    "ourcompanyText5": "Modern equipment",
+    "ourcompanyText6": "Discounts for company employees",
+    "vacancyBTN": "LEAVE A RESUME",
+    "vacancyFamily": "Vacancies at Family Park",
+    "vacancyTenants": "Family park tenant vacancies",
+    "vacansyModal": {
+      "vacansyModalTitle": "Leave your resume",
+      "vacansyModalTeaxt1": "Full name",
+      "vacansyModalTeaxt2": "Phone number",
+      "vacansyModalTeaxt3": "Email",
+      "vacansyModalTeaxt4Label": "Upload ",
+      "vacansyModalTeaxt5": " your resume file (doc, pdf, docx, rtf)",
+      "vacansyModalTeaxt6": " Or paste a link to your resume",
+      "vacansyModalBTN": " Send",
+      "vacansyModalTeaxtErro1": "The Full Name field cannot be empty",
+      "vacansyModalTeaxtErro2": "The Phone number field cannot be empty",
+      "vacansyModalTeaxtErro3": "The Email field cannot be empty",
+      "vacansyModalTeaxtErro4": "Invalid link",
+      "vacansyModalTeaxtErro5": "You must attach a file or insert a link to your resume",
+      "vacansyModal2Title": "Your application has been successfully sent!!!",
+      "vacansyModal2BTN": "Back to the main page"
+    }
+  },
+  "SecondPage": {
+    "SecondPageTitleh1": "DISCOVER THE ",
+    "SecondPageTitleh1span1": " WORLD </br> OF ",
+    "SecondPageTitleh1span2": " ENTERTAINMENT ONLY ",
+    "SecondPageTitleh1span3": " WITH US",
+    "SecondPageFlex1": "Restaurants and Entertainment Stores",
+    "SecondPageFlex2": "Entertainment outlets",
+    "SecondPageFlex3": "World brands",
+    "SecondPageFlex4": "Do you want to always be in style? Major global brands are excellent They will select your onions for the season!",
+    "SecondPageFlexTwo1": "Entertainment ",
+    "SecondPageFlexTwo1Text": "Ice skating rink, go-karting, bowling, cinema where you can have fun with friends and family",
+    "SecondPageFlexTwo2": "Food ",
+    "SecondPageFlexTwo2Text": "Cafes and restaurants to relax and enjoy dishes prepared with fresh ingredients.",
+    "SecondPageFlexTwo3": "Shopping",
+    "SecondPageFlexTwo3Text": "Do you want to always be in style? Major global brands will perfectly select your cloth for the season!",
+    "SecondPageFlexTwo4": "Services ",
+    "SecondPageFlexTwo4Text": "Tour tickets? To sew clothes? to the Family Park. anything!"
+  },
+  "MagazinePage": {
+    "MagazinePageTitle": "Shops",
+    "MagazinePageTitle2": "Catalog",
+    "MagazinePageBtn": "Show all"
+  },
+  "MapPage":{
+    "mapTitle":"HOW TO GET THERE"
+  },
+  "LastPage": {
+    "LastPageTitle": "want to become our tenant?",
+    "LastPageTitleP": "Stay Aware of World Premieres at Our Film Distribution!",
+    "LastPageFormText1": "YOUR BUSINESS:",
+    "LastPageFormText2": "Trading profile",
+    "LastPageFormText2Option1": "Shop",
+    "LastPageFormText2Option2": "Food",
+    "LastPageFormText2Option3": "Entertainment Center",
+    "LastPageFormText2Option4": "Services",
+    "LastPageFormText2Error": "Trading profile cannot be empty",
+    "LastPageFormText3": " Desired area",
+    "LastPageFormText3Error": " The desired area cannot be empty",
+    "LastPageFormText4": " Brand/company name",
+    "LastPageFormText4Error": "Brand/company name cannot be empty",
+    "LastPageFormText5": "Your contact details:",
+    "LastPageFormText6": "Name of contact person",
+    "LastPageFormText6Error": "Name of contact person cannot be empty",
+    "LastPageFormText7": "Email",
+    "LastPageFormText7Error": "Email cannot be empty",
+    "LastPageFormText8": "Phone number",
+    "LastPageFormText8Error": "The phone number cannot be empty",
+    "LastPageFormBtnText": "Send a request"
+  },
+  "Last":{
+    "LastTitle":" LOST SOMETHING IMPORTANT?",
+    "LastSmallTitle":" Fill out a short form and we will contact you",
+    "LastFormtext3":"What have you lost:",
+    "LastFormtext4":"Where were you?",
+    "LastFormtext5  ":"Loss time",
+    "LastFormtext6  ":"Comments:",
+    "LastFormtext3Error":"A lost item cannot be empty",
+    "LastFormtext4Error":"A lost place cannot be empty",
+    "LastFormtext5Error":"Lost time cannot be empty",
+    "LastFormtext6Error":"Comment cannot be empty" 
+  },
+  "Footer": {
+    "WorkingTime": "Mon-Sun from 10:00 to 23:00",
+    "SocialMedia": "Social media",
+    "Rules": "Rules",
+    "Rulestext1": "Visitor rules",
+    "Rulestext2": "Parking rules",
+    "Rulestext3": "Advertising rules",
+    "FooterEndText": "Thematic entertainment center in Samarkand"
+  },
+  "catalogMagzine": {
+    "catalogTitle": "Catalog"
+  },
+  "Catalog": {
+    "catalogText1": "Concerts and events",
+    "catalogText2": "Mall Map",
+    "catalogText3": "Movie Schedule",
+    "catalogText4": "Shops",
+    "catalogText5": "Food",
+    "catalogText6": "Entertainment and services",
+    "catalogText7": "Promotions and discounts",
+    "catalogText8": " For tenants",
+    "catalogText9": "Work in Family PARK",
+    "catalogText10": "Lost things",
+    "catalogText11": "Uzbekistan, Samarkand city, Narpay street 76a"
+  },
+  "OpenShop": {
+    "WorkingTime": "Working time",
+    "description": "Description:",
+    "interesing": "Also you may be interested in:"
+  },
+  "RulesVisitors": {
+    "visistoryTitle": "Terms and conditions of stay on the territory of the FAMILY PARK",
+    "visistoryText": "1. Definition of terms <br /> FAMILY PARK is a public shopping center located at the address:  76 Narpayskaya Str., Samarkand, Uzbekistan. On the territory of the FAMILY PARK there is a shopping gallery, restaurants and cafes, a children's area, a supermarket. <br /> A visitor is any individual located on the territory of the FAMILY PARK. Administration – duly authorized representatives and employees of the owner of the FAMILY PARK, acting on his behalf and in his interests. FAMILY PARK Opening hours – FAMILY PARK active hours when allowed  access for visitors to the FAMILY PARK. Information about Opening Hours is indicated on the website, in social networks and in the entrance groups to the FAMILY PARK. <br />  2. General provisions <br /> 2.1. These Rules contain the rules of behavior of visitors to the FAMILY PARK and the use of the services of the FAMILY PARK; <br /> 2.2. These Rules are developed in accordance with the Civil Code of the Republic  Uzbekistan, the Law of the Republic of Uzbekistan 'On Consumer Rights Protection', the Code  Civil Protection of the Republic of Uzbekistan, the Law of the Republic of Uzbekistan 'On combating Terrorism', etc.; <br /> 2.3. The owner of the FAMILY PARK, as well as the Administration appointed by him and (or) the Security Service attracted by him, are not responsible for any harm that may be caused in the FAMILY PARK to the property of any persons, life and health  Visitors, including those caused by the actions (inaction) of tenants of premises and (or) third parties, including the actions (inaction) of any  Visitors, and also is not responsible for the safety of any property (things, documents, money, funds, etc.) of any persons located in the FAMILY PARK, including Visitors; <br /> 2.4. Periodically, the Administration of the FAMILY PARK conducts mass events to popularize the FAMILY PARK with the implementation of photo and video recording of such events. By staying in the FAMILY PARK, the Visitor gives his consent to  photographing and videotaping both personally and underage/minor members of his family, within the framework of such events; <br /> 2.5. By staying in the FAMILY PARK, the Visitor also provides an indefinite consent to the gratuitous use of photos and videos taken in the FAMILY PARK,  containing his images and/or images of minors/minor members of his family, when creating advertisements, informational messages about activities  FAMILY PARK and for other purposes related to the activities of FAMILY PARK, and also gives consent to the storage, replication, distribution and processing of these photo and video materials; <br /> 2.6. These Rules are binding and apply to all Visitors, unless otherwise established by the Administration and/or agreement  Administration with the appropriate person; <br /> 2.7. All proprietary copyrights to the interior and exterior design of the FAMILY  The PARK (including the location of decorative elements, the lighting concept of the FAMILY PARK, the planning of the FAMILY PARK, etc.), as an object of intellectual property (a work of architecture) belong to the Owner of the FAMILY PARK. Creating photos and/or videos depicting the FAMILY PARK building or part of it (both inside and outside the building), the Visitor gives his full and unconditional consent to the Owner of the FAMILY PARK to use such photos  and/or video recordings, as well as any other works created using them, if they were posted on the Internet in free access. The specified photographs and/or videos and works created with their use may  freely used by the owner of the FAMILY PARK with reference to the source of their publication; <br /> 2.8. It is prohibited to create and use photo, video or other works based on  which depict the FAMILY PARK building or part of it (both inside and outside the building), except in cases where such actions are coordinated with the Administration  FAMILY PARK. <br /> 3. Stay in the Shopping and Entertainment Center <br /> 3.1. Subject to compliance with these Rules and compliance with legal requirements  Administration and (or) Security Service every Visitor has the opportunity to stay in FAMILY PARK during FAMILY PARK Opening hours; <br /> 3.2. Staying on the territory of the FAMILY PARK at other times than the FAMILY PARK Opening Hours established by the Administration is possible only with the prior written consent of the Administration; <br /> 3.3. Visitors must leave the FAMILY PARK in advance before the end of the Hours  jobs (except for establishments with extended work hours (restaurants, supermarket, etc .)); <br /> 3.4. The presence of children under 12 years of age is allowed only accompanied by adults.  The security service has the right to prevent children under the age of 12 from entering the territory of the FAMILY PARK, without  accompanying adults. <br /> 4. When staying in the FAMILY PARK, visitors are prohibited: <br /> 4.1. To commit actions (inaction) threatening the life or health of citizens, which may cause harm to the FAMILY PARK and (or) damage to the property of the Owner  Buildings and Visitors, including tenants of premises; <br /> 4.2. Bring cold, firearms, gas weapons and ammunition, explosives and explosive devices, electric shock devices, toxic, radioactive, flammable, pyrotechnic, flammable substances, mechanical or automatic aerosol sprayers of all types into the FAMILY PARK; <br /> 4.3. To carry out trade and other types of business activities on the territory of the FAMILY PARK without the consent of the Administration ; <br /> 4.4. Without the consent of the Administration to carry out on the territory of the FAMILY PARK  commercial and marketing activities, advertising, holding mass events, fundraising, charitable activities; <br /> 4.5. Conduct any political agitation on the territory of the FAMILY PARK, distribute printed materials, as well as perform other actions related to political activity; <br /> 4.6. To take photos and videos without the consent of the Administration, with the exception of 'selfies' and photographs for personal purposes, carried out using  mobile phones and/or amateur cameras or video cameras, if at the same time  the person who takes photos and videos does not cause inconvenience to other FAMILY PARK visitors by his actions and does not violate public order; <br /> 4.7. Without the consent of the Administration, play musical instruments in the FAMILY PARK , use sound and video reproducing devices (except personal ones); <br /> 4.8. To speak in raised tones, to accept obscene expressions, to commit actions insulting the honor and dignity of other visitors; <br /> 4.9. Leave bags, belongings and other items unattended; <br /> 4.10. Leave children unattended; <br /> 4.11. Take food outside the food hall areas, restaurants; carry it around the FAMILY  PARK (including in elevators and escalators) hot food and drinks (except for carrying in hermetically sealed containers/packaging); <br /> 4.12. To throw out garbage in places not provided for this purpose; <br /> 4.13. To enter/stay in the FAMILY PARK in a state of alcoholic and/or narcotic intoxication, as well as to carry narcotic, psychotropic and other  dangerous substances; <br /> 4.14. Use narcotic and psychotropic substances; <br /> 4.15. Smoking (including, but not limited to: hookahs, vapes, smoking mixtures,  electronic cigarettes), except for smoking in designated areas; <br /> 4.16. To be without clothes, with a naked torso or in such a way that expresses obvious disrespect for others who offend human dignity and public morality; <br /> 4.17. Run, run on escalators, move on an escalator against traffic, jump, climb fences, railings, technical structures, jump from any height, bend over the railing, enter the restricted access area, including office premises, as well as other restricted access areas, decorated  corresponding information boards, signs, pointers; <br /> 4.18. Use bathrooms not for their intended purpose; <br /> 4.19. Enter the FAMILY PARK with bulky items, which include items that exceed 180 cm in the sum of three dimensions, except for goods purchased in retail establishments on the territory of the FAMILY PARK; <br /> 4.20. Ride bicycles, roller skates, skateboards, electric skates, scooters, gyroscuters and other means of transportation; <br /> 4.21. Stay in the FAMILY PARK with animals, except when it is allowed  legislation of the Republic of Uzbekistan (use of guide dogs, etc.); <br /> 4.22. Organize and conduct gambling and participate in the territory of the FAMILY PARK . <br /> 5. Duties of visitors <br /> 5.1. Behave respectfully towards others, other Visitors, employees, FAMILY PARK Administration; <br /> 5.2. Take care of the property of the building owner and other visitors, including tenants of the FAMILY PARK, as well as other property on the territory of the FAMILY PARK. <br /> 6. Responsibility for violation of FAMILY PARK rules <br /> 6.1. Visitors who have violated the requirements of these Rules, resulting in their actions (inaction) property damage was caused to FAMILY PARK,  The owner of the Building and (or) other Visitors may be brought to civil liability in order to compensate for the damage caused in accordance with the procedure established by the current legislation of the Republic of Uzbekistan. <br /> 6.2. The Administration has the right to take all legal measures aimed at bringing the guilty Visitors to the appropriate civil (material), administrative and (or) criminal liability. <br /> 7. Rules for visiting the food court <br /> 7.1. It is forbidden to shift and move tables and chairs, to take them outside the food court "
+  },
+  "RulesParking": {
+    "ParkingTitle": "Rules of underground parking of the SEC  «FAMILY PARK»",
+    "ParkingTeaxt": " The fact of entering the underground parking area confirms your agreement with these rules and the actions that you must take when visiting the parking lot. <br /> Underground parking for visitors of the shopping center Family Park is free during the day , and at night from 23:00 to 9:00 has a cost of 50,000 soums. To prevent damage or loss, you need to comply with fire safety requirements in the underground parking area and move along it at a low speed of up to 5 km/h, following road markings and signs. <br /> Vehicles with a maximum permitted weight exceeding 3,500 kg and/or the number of seats, which, in addition to the driver's seat, exceeds eight, as well as vehicles with bulky cargo and vehicle compositions, motor vehicles (motorcycles) are prohibited from entering the parking area.,  mopeds, scooters, etc.). The administration of the shopping center is not responsible for damage  or theft of a vehicle, as well as for the safety of things stored in the vehicle. In case of an accident in the parking lot or directly near the entrance to  Of course, you need to immediately notify any of the Administration staff,  Control services to assist them in eliminating the consequences of an accident as soon as possible, as well as to restore the unhindered movement of vehicles. The number of parking spaces is limited and if they are occupied, parking services cannot be provided. Claims on this fact are not accepted. For safety reasons and to prevent harm, it is prohibited to violate the requirements of road signs, markings, traffic regulations, to allow parking and stopping of vehicles in  in places not specified for this purpose, to park the vehicle with the engine running and clutter up driveways and exits from the parking area, pedestrian paths. <br /> When visiting the underground parking, smoking, as well as alcohol and narcotic substances are prohibited. Entry of vehicles with an unlimited number of passengers is prohibited. It is forbidden to leave cars unattended. Administration  The shopping center is not responsible for the loss or damage of personal items that are brought to the parking lot. It is forbidden to enter the parking lot drunk. By  when visiting the parking lot, you must adhere to these rules. Administration  The shopping center instructs all visitors to the underground parking to use equipped parking spaces and not to bring things to the parking lot that may pose a danger to others. Parking visitors are also prohibited from causing any damage to the parking area, infrastructure or other vehicles. <br /> In case of violation of the above rules, the Administration of the shopping center has  the right to prohibit access to underground parking and take other measures to  suppression of violations"
+  },
+  "RulesAdvertings": {
+    "AdvertisingTitle": "Rules for advertising in FAMILY PARK theme and entertainment center",
+    "AdvertisingText": "1. Window dressing: <br /> 1.1 Signage, advertising and informational materials should not overlap more than 30%  the total area of the showcase. <br /> 1.2 Plots (drawings, stylized photos, etc.) have no restrictions on shape, color, structure (they can be rectangular, round, square or irregular in shape). <br /> 1.3 The content of the storefronts decorating the showcase should not contradict moral and ethical norms (do not use elements reflecting scenes of violence, pornography, racism and other elements in the design of the showcase). <br /> 1.4 It is forbidden to place temporary homemade stickers (printing on office appliances). <br/>> 1.5 It is forbidden to place ads with information about finding employees.  Soon this information will be available on the official website of the FAMILY PARK <br/>. 1.6. It is prohibited to place the addresses of online stores on storefronts and advertising materials <br/> 1.7 Festive decoration of showcases with balloons is carried out only for the period of festive events. <br/> 1.8 All changes in the design of the showcase must be coordinated with the marketing department  FAMILY PARK no later than 2 working days in advance. Pre-visualizations must be sent to the mail familypark.uz@gmail.com . <br/> 1.9 Placement of advertising materials must be accompanied beforehand  registration of the necessary documentation signed by the administration of the shopping center (applications for import / export of equipment) <br/> 1.10 Placement of advertising materials outside the retail space is not allowed, including temporary stands, roll-up, spiders, podiums, etc. <br/> 1.11 The Administration will require the immediate removal from the Center of any signage, advertising  materials, billboards, improperly designed or containing information contrary to the Law of the Republic of Uzbekistan 'On Advertising'. <br/> 2. Photo and video shooting: <br/> 2.1 It is prohibited to take photos or videos in or around the mall (including in a rented room) without the special written permission of the mall administration.  Please note that all such requests should be submitted at least 24 hours before the scheduled session in order to allow time for proper consideration  this issue. <br/> 3. Soundtrack: <br/> 3.1 Music reproduced with the help of sound amplifying equipment,  sound-reproducing equipment or live projections in rented premises should not  go beyond the permissible volume level – 75 dB. <br/> 3.2 During celebrations and festive events, when sound amplification equipment is located outside the rented premises, the music volume level should not exceed 75 dB and interfere with the activities of other tenants. <br/> 4.3 The use of sound reproducing equipment in the premises of the shopping gallery without the permission of the administration of the shopping center is prohibited. <br/> 4. Marketing research: <br/> 4.1 In case of involvement by the retailer / lessee of organizations / companies for market research, it is necessary to obtain permits from the administration  Shopping malls, before conducting interviews with customers in public areas. <br/> 5. Additional advertising on the territory of the shopping center: <br/> 5.1 The Lessee has the right to conduct promotions / events on the territory of the shopping center only after agreement with a representative of the marketing department of the shopping center (informing by e-mail.  address familypark.uz@gmail.com ). For approval, you need to provide full information:  the duration of the event, the type of advertising manifestation, all technical documentation, etc. <br/> 5.2 Additional promotional events / advertising posters / audio advertising, etc. <br/> are held / placed on the territory of the shopping center on commercial terms. 5.3 Placement of advertising materials / events must be accompanied in advance by the registration of the necessary documentation signed by the administration of the shopping center (applications for the import / export of equipment, admission to the territory of the shopping center). <br/> 5.4 It is prohibited to place the following advertising structures on the territory of the shopping center: spider,  pillar and other similar designs. <br/> 5.5 The Lessor reserves the right to refuse to place additional advertising structures. <br/> 6. Posting information on the website: <br/> 6.1 On the official website, the tenant has the right to post the following information: <br/> - A word document with information about the store <br/> - Logo in vector <br/> - Photo of the store's facade <br/> - The phone number of the store in our mall <br/> - The store's website <br/> - You send information about each store in a separate archive <br/> 6.2. The Lessee has the right to place information about promotions/discounts in the appropriate section. To do this, you need to provide: <br/> - the name of the action/news (in Uzbek, Russian, English) <br/> - text (in Uzbek, Russian, English) <br/> - image (size 738x454, png format) <br/> 7. Posting information on social media pages: <br/> 7.1. Information about the tenant's activities is posted on social media pages  Facebook, Instagram in the following cases: <br/> - when opening a store <br/> - when conducting a general rubric <br/> - during the contest with the prize fund provided by the tenant <br/> - information about discounts and new collections <br/> - information about special offers. <br/> Content requirements for social networks: <br/> - post 1080*1080 jpeg <br/> - Story 1920*1080 jpeg <br/> - Word document with information about the promotion (accompanying text) <br/> - TIFF format with layers for our ability to edit and adapt the brandbook <br/> - Logo in vector <br/> - Everything is sent in one archive <br/> Do not forget that all the information announcing any news of your store will be able to increase turnover at times. Send the content as it arrives. 8. Additional: <br/> 8.1 All visits of celebrities or famous personalities must be notified  the administration of the shopping center, at least 7 days before the visit. The mall's marketing manager will do everything possible to help advertise the visit, and the mall administration will provide the necessary security and safety measures. If it is considered appropriate to take additional measures  security, such activities and related expenses are carried out exclusively at the expense of the relevant retailer. (informing by e-mail  familypark.uz@gmail.com ) <br/> 8.2 Tenants have the right to advertise their activities separately or  the store, provided that it does not contradict the advertising (advertising activity) The mall as a whole. <br/> 8.3 All repairs and other works are carried out exclusively from 23:00 to 9:00 according to a previously agreed request with the administration. <br/> 4. An example of an application for conducting any activities in the shopping center, below. All applications are filled out on the infostock and transferred to the infostock administrator before 16:00, after 18:00 the tenant can pick up his signed application at the reception desk"
+  },
+  "foodPage":{
+    "foodpageTitle":"FOOD"
+  },
+  "entertainmentPage":{
+    "entertainmentPaggTitle":"ENTERTAINMENT AND SERVICES"
+  },
+  "EventsPage":{
+    "EventsPageTitle":"EVENTS"
+  },
+  "PromotionPage":{
+    "promotionPageTitle":"PROMOTIONS AND DISCOUNTS"
+  }
+}

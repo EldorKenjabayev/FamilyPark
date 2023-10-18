@@ -1,0 +1,110 @@
+@import url(https://fonts.cdnfonts.com/css/tt-firs-neue-trl);
+@font-face {
+    font-family: "Steppe";
+    src: url("../../../Fonts/Steppe/Steppe-ExtraBold.ttf") format("ttf"),
+      url("../../../Fonts/Steppe/Steppe-Black.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+  }
+.magazine {
+  width: 100%;
+  padding: 3%;
+  display: grid;
+  grid-template-columns: 48% 48%;
+  grid-row: minmax(150px auto);
+  gap: 4%;
+  background-color:#fff;
+  padding-top: 9%;
+  position: relative;
+  font-family: 'Steppe';
+  color: #25254c;
+}
+.CardMagazine {
+  border: 1px solid transparent;
+  overflow: hidden;
+  background:none;
+  user-select: none;
+  border-radius: 25px;
+  padding: 6%;
+  background-color: rgba(206, 207, 238, 0.3);
+  backdrop-filter: blur(15px);
+  z-index: 100;
+  cursor: pointer;
+  position: relative;
+  top: -140px;
+}
+.CardMagazine p{
+    font-family: 'Steppe';
+    font-size: 12px !important;
+    padding: 5px 3px;
+    padding-top: 10px;
+}
+.CardMagazine h3{
+    font-size: 15px !important;
+    padding: 3px ;
+    padding-bottom: 5px;
+    font-family: "TT Firs Neue Trl", sans-serif;
+}
+.CardMagazine:hover{
+    transition: .1s all ;
+    transform: scale(1.08);
+}
+.TitleMagzinne h1{
+    font-family: "Steppe";
+    font-weight: 900;
+    padding: 0 3%;
+    padding-bottom: 2%;
+    font-size: 47px;
+    color:#fff;
+}
+.TitleMagzinne button{
+    font-family: "TT Firs Neue Trl", sans-serif;
+    margin-left: 4%;
+    font-size: 13px;
+    padding: 10px 20px;
+    border-radius:35px;
+    color:#25254C;
+    background:#D1D1FF;
+    cursor: pointer;
+    border:none;
+}
+.TitleMagzinne button:hover{
+    transition: .2s all linear;
+    font-size: 16px;
+    transform: scale(1.05);
+}
+.react-multi-carousel-item{
+    width: 5000px;
+}
+.carusellMainpage{
+    display: none;
+}
+@media screen and (min-width:800px){
+    .magazineMoblie{
+        display: none;
+    }
+    .carusellMainpage{
+        display: block;
+    }
+    .TitleMagzinne {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .CardMagazine{
+        top: 0;
+    }
+    .TitleMagzinne h1{
+        width: 55%;
+        font-size: 45px;
+        margin-left: 5%;
+    }
+    .TitleMagzinne button{
+        width: 100%;
+        margin-left:-100%;
+    }
+    .react-multi-carousel-list{
+        width: 86%;
+        margin: auto;
+    }
+}
