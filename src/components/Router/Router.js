@@ -1,5 +1,5 @@
 import { Box } from "@mui/material";
-import React from "react";
+import React, { useState } from "react";
 import {
   Route,
   Routes,
@@ -23,8 +23,9 @@ import FoodCatalog from "../Catalog/FoodCatalog";
 import EntertainmentCatalog from "../Catalog/EntertainmentCatalog";
 import EventsOpen from "../Concerts/EventsOpen";
 import PoromitionCatalog from "../Catalog/PoromitionCatalog";
+import SearchPage from "../SearchPage/SearchPage";
 
-export default function Router({ idinfo, setIdInfo }) {
+export default function Router({ idinfo, setIdInfo, result, setResult }) {
   const Location = useLocation();
   let idLocation = Location.pathname.replace(/\D/g, "");
 
@@ -83,6 +84,7 @@ export default function Router({ idinfo, setIdInfo }) {
         <Route path="/rules-visitors" element={<RulesVisitor />} />
         <Route path="/rules-parking" element={<RulesParking />} />
         <Route path="/rules-advertings" element={<RulesAdvertings />} />
+        <Route path="/results-search" element={<SearchPage result={result} />} />
       </Routes>
     </Box>
   );

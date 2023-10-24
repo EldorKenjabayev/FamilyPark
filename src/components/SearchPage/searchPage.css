@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "Steppe Black";
+    src: url("../../Fonts/Steppe/Steppe-Black.woff") format("woff"),
+      url("../../Fonts/Steppe/Steppe-Black.ttf") format("woff");
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .NotingFound h3{
+    font-family: "Steppe";
+    padding-top: 2vh;
+    margin: auto;
+    font-size: 25px;
+    font-weight: 500;
+  }

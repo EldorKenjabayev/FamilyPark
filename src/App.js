@@ -13,17 +13,14 @@ export default function App() {
   const location = useLocation();
   const [currentSection, setCurrentSection] = useState(1);
   const { t } = useTranslation();
-  const updateHash = (section) => {
-    window.location.hash = `#section${section}`;
-  };
+  const [result, setResult] = useState([]);
 
-  useEffect(() => {
-    updateHash(currentSection);
-  }, [currentSection]);
+
 
   return (
     <Box>
-      <Navigation setIdInfo={setIdInfo} />
+      <Navigation setIdInfo={setIdInfo} result={result}
+setResult={setResult}/>
    
 
       {/* <Box
@@ -73,7 +70,8 @@ export default function App() {
           }}
         />
       </Box> */}
-      <Router idinfo={idinfo} setIdInfo={setIdInfo} />
+      <Router idinfo={idinfo} setIdInfo={setIdInfo} result={result}
+setResult={setResult} />
       <br />
     </Box>
   );

@@ -88,11 +88,11 @@
   align-items:center;
   padding-bottom: 13%;
 }
-
-
-.background-menu{
-  height: 100%;
+.fisrtTopBox{
+  height: 110px;
 }
+
+
 
 @media screen and (min-width:500px){
   .FirstImg{
@@ -108,15 +108,20 @@
   .FirstImg{
     height: 350px;
   }
+  .fisrtTopBox{
+    height: 0px;
+  }
+
 }
 @media screen and (min-width:800px){
   .FirstImg{
-    height: 420px;
+    height: 59.8vh;
   }
 
   .background-menu{
     display: flex;
-    align-items: flex-start;
+    height: 42vh;
+    padding-bottom: 25px;
   }
   .firstTitle-Text{
     width: 70%;
@@ -125,17 +130,17 @@
   .firstTitle-Text .FirstTitle{
     font-size: 40px;
     padding-top: 7%;
-    padding-bottom: 15%;
+    padding-bottom: 5%;
     
   }
   .FirstText {
     padding-top: 7%;
-    padding-bottom: 15%;
+    padding-bottom: 5%;
   }
   .firsPageBtn{
     position: absolute;
     left: 0;
-    top: -100%;
+    top: -50%;
   }
 
 }
@@ -149,7 +154,13 @@
   font-size: 20px;
   padding-bottom: 2vh;
 }
+
+.firstPage{
+  height: 100vh !important;
+  overflow-y: unset;
 }
+}
+
 
 @media screen and (min-width:1400px){
 .firstTitle-Text h1{

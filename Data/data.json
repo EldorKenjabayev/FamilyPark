@@ -1,0 +1,94 @@
+{
+  "magazine": [
+    {
+      "id": 1,
+      "img": "https://family.khm473.ru/uploads/tenant/1676356856.png",
+      "magazineType": "Одежды",
+      "magazineName": "INDENIM"
+    },
+    {
+      "id": 2,
+      "img": "https://family.khm473.ru/uploads/tenant/1676541532.jpg",
+      "magazineType": "Еда",
+      "magazineName": "Chocolate"
+    },
+    {
+      "id": 1,
+      "img": "https://family.khm473.ru/uploads/tenant/1676356856.png",
+      "magazineType": "Одежды",
+      "magazineName": "INDENIM"
+    },
+    {
+      "id": 2,
+      "img": "https://family.khm473.ru/uploads/tenant/1676541532.jpg",
+      "magazineType": "Еда",
+      "magazineName": "Chocolate"
+    },
+    {
+      "id": 3,
+      "img": "https://family.khm473.ru/uploads/tenant/1676538985.jpg",
+      "magazineType": "Развлевательный центр",
+      "magazineName": "PLAY ARENA"
+    },
+    {
+      "id": 3,
+      "img": "https://family.khm473.ru/uploads/tenant/1676538985.jpg",
+      "magazineType": "Развлевательный центр",
+      "magazineName": "PLAY ARENA"
+    },
+    {
+      "id": 3,
+      "img": "https://family.khm473.ru/uploads/tenant/1676538985.jpg",
+      "magazineType": "Развлевательный центр",
+      "magazineName": "PLAY ARENA"
+    },
+    {
+      "id": 3,
+      "img": "https://family.khm473.ru/uploads/tenant/1676538985.jpg",
+      "magazineType": "Развлевательный центр",
+      "magazineName": "PLAY ARENA"
+    },
+    {
+      "id": 3,
+      "img": "https://family.khm473.ru/uploads/tenant/1676538985.jpg",
+      "magazineType": "Развлевательный центр",
+      "magazineName": "PLAY ARENA"
+    },
+    {
+      "id": 3,
+      "img": "https://family.khm473.ru/uploads/tenant/1676538985.jpg",
+      "magazineType": "Развлевательный центр",
+      "magazineName": "PLAY ARENA"
+    },
+    {
+      "id": 3,
+      "img": "https://family.khm473.ru/uploads/tenant/1676538985.jpg",
+      "magazineType": "Развлевательный центр",
+      "magazineName": "PLAY ARENA"
+    },
+    {
+      "id": 3,
+      "img": "https://family.khm473.ru/uploads/tenant/1676538985.jpg",
+      "magazineType": "Развлевательный центр",
+      "magazineName": "PLAY ARENA"
+    },
+    {
+      "id": 3,
+      "img": "https://family.khm473.ru/uploads/tenant/1676538985.jpg",
+      "magazineType": "Развлевательный центр",
+      "magazineName": "PLAY ARENA"
+    },
+    {
+      "id": 3,
+      "img": "https://family.khm473.ru/uploads/tenant/1676538985.jpg",
+      "magazineType": "Развлевательный центр",
+      "magazineName": "PLAY ARENA"
+    },
+    {
+      "id": 3,
+      "img": "https://family.khm473.ru/uploads/tenant/1676538985.jpg",
+      "magazineType": "Развлевательный центр",
+      "magazineName": "PLAY ARENA"
+    }
+  ]
+}

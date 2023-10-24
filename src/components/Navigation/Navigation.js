@@ -7,7 +7,7 @@ import axios from "axios";
 import Line from "../Img/Line 1 (1).svg";
 import Catalog from "./Catalog/Catalog";
 import BackroundCatalog from "../Img/Background/backgrouncatalog.svg";
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import Telegram from "../Img/FooterImg/Vector (1).svg";
 import Instagram from "../Img/FooterImg/Vector.svg";
@@ -15,15 +15,44 @@ import Facebook from "../Img/FooterImg/Vector (3).svg";
 import Youtube from "../Img/FooterImg/Vector (4).svg";
 import TikTok from "../Img/FooterImg/Vector (2).svg";
 import "../../i18next";
-export default function Navigation({ setIdInfo }) {
+import SearchResult from "./SearchResult/SearchResult";
+export default function Navigation({ setIdInfo, result, setResult }) {
   const savedLanguage = localStorage.getItem("language") || "ru";
   const [activelanguage, setActiveLanguage] = useState(savedLanguage);
   const { t, i18n } = useTranslation();
-
+  const navigate = useNavigate();
+  const [searchTerm, setSearchTerm] = useState("");
+  const [inputActive, setInputActive] = useState(false);
   const changeLanguage = (lang) => {
     i18n.changeLanguage(lang);
     setActiveLanguage(lang);
     localStorage.setItem("language", lang);
+  };
+  useEffect(() => {
+    const fetchData = () => {
+      axios
+        .get("http://localhost:3003/magazine")
+        .then((res) => {
+          const data = res.data;
+          const filteredResult = data.filter((item) =>
+            item.magazineName.toLowerCase().includes(searchTerm.toLowerCase())
+          );
+          setResult(filteredResult);
+        })
+        .catch((error) => {
+          console.error("Error fetching data:", error);
+        });
+    };
+
+    fetchData();
+
+    if (searchTerm) {
+      fetchData();
+    }
+  }, [searchTerm]);
+
+  const handleInputChange = (e) => {
+    setSearchTerm(e.target.value);
   };
 
   useEffect(() => {
@@ -33,59 +62,10 @@ export default function Navigation({ setIdInfo }) {
     }
   }, []);
   const [searchActive, setSearchActive] = useState(false);
-  const [searchActivetext, setSearchActivetext] = useState(false);
-  const [searchText, setSearchText] = useState("");
+
   const [activecatalog, setActiveCatalog] = useState(false);
   const [searchActivatedOnce, setSearchActivatedOnce] = useState(false);
-  const [searchQuery, setSearchQuery] = useState([
-    {
-      id: 1,
-      img: "https://family.khm473.ru/uploads/tenant/1676356856.png",
-      magazineType: "Одежды",
-      magazineName: "INDENIM",
-    },
-    {
-      id: 2,
-      img: "https://family.khm473.ru/uploads/tenant/1676356856.png",
-      magazineType: "Продукты1",
-      magazineName: "INDENIM",
-    },
-    {
-      id: 3,
-      img: "https://family.khm473.ru/uploads/tenant/1676356856.png",
-      magazineType: "Одежды",
-      magazineName: "INDENIM",
-    },
-    {
-      id: 4,
-      img: "https://family.khm473.ru/uploads/tenant/1676356856.png",
-      magazineType: "Продукты",
-      magazineName: "INDENIM",
-    },
-    {
-      id: 5,
-      img: "https://family.khm473.ru/uploads/tenant/1676356856.png",
-      magazineType: "Одежды",
-      magazineName: "INDENIM",
-    },
-    {
-      id: 6,
-      img: "https://family.khm473.ru/uploads/tenant/1676356856.png",
-      magazineType: "Продукты",
-      magazineName: "INDENIM",
-    },
-    {
-      id: 7,
-      img: "https://family.khm473.ru/uploads/tenant/1677744493.jpg",
-      magazineType: "Одежды",
-      magazineName: "INDENIM",
-    },
-  ]);
-  const filteredItems = searchQuery.filter(
-    (item) =>
-      item.magazineName.toLowerCase().includes(searchText.toLowerCase()) ||
-      item.magazineType.toLowerCase().includes(searchText.toLowerCase())
-  );
+
   const [isAnimating, setIsAnimating] = useState(true);
 
   useEffect(() => {
@@ -95,10 +75,10 @@ export default function Navigation({ setIdInfo }) {
 
     return () => clearTimeout(animationTimeout);
   }, []);
-  const SearchChange = (e) => {
-    let text = e.target.value;
-    const Api = "";
-    axios.get(Api.then((res) => {}));
+  const handleKeyPress = (e) => {
+    if (e.key === "Enter") {
+      navigate(`/results-search`);
+    }
   };
   const [isActive, setIsActive] = useState(false);
   const Location = useLocation();
@@ -123,9 +103,10 @@ export default function Navigation({ setIdInfo }) {
       Location.pathname === "/concerts-and-events" ||
       Location.pathname === "/catalog-promotion" ||
       Location.pathname === "/cinema-secheduale" ||
+      Location.pathname === "/results-search" ||
       Location.pathname === "/last" ||
       Location.pathname === "/vacancy" ||
-      Location.pathname.startsWith("/renter") || 
+      Location.pathname.startsWith("/renter") ||
       PathName === "open-shop") &&
     !activecatalog
       ? "brightness(0) invert(1)"
@@ -133,8 +114,6 @@ export default function Navigation({ setIdInfo }) {
   const toggleCatalogIcon = () => {
     setIsActive(!isActive);
   };
-
-  console.log(searchText);
 
   const firstSpanWidth = isActive ? "25px" : "35px";
   const secondSpanWidth = "25px";
@@ -149,7 +128,6 @@ export default function Navigation({ setIdInfo }) {
     if (searchActive) {
       const timer = setTimeout(() => {
         setSearchActive(false);
-        setSearchText("");
       }, 10000);
       return () => clearTimeout(timer);
     }
@@ -162,7 +140,7 @@ export default function Navigation({ setIdInfo }) {
     <Box>
       <Box
         sx={{
-          width:'100%',
+          width: "100%",
           display: "flex",
           justifyContent: "space-between",
           padding: "0 4%",
@@ -173,7 +151,6 @@ export default function Navigation({ setIdInfo }) {
           zIndex: "1111",
         }}
       >
-        
         <Box
           sx={{
             display: "flex",
@@ -183,67 +160,67 @@ export default function Navigation({ setIdInfo }) {
           }}
         >
           <Box
-          className="languNavigation"
-          sx={{
-            display: "flex",
-            alignItems:'center',
-            gap: "1vw",
-            padding: "10px 5%",
-          }}
-        >
-          <button
-            onClick={() => {
-              changeLanguage("ru");
-              setActiveLanguage("ru");
-            }}
-            style={{
-              color: searchIconColor ? " #ffff" : "",
+            className="languNavigation"
+            sx={{
+              display: "flex",
+              alignItems: "center",
+              gap: "1vw",
+              padding: "10px 5%",
             }}
           >
-            <span
+            <button
+              onClick={() => {
+                changeLanguage("ru");
+                setActiveLanguage("ru");
+              }}
               style={{
-                color: activelanguage === "ru" ? "rgb(120, 120, 255)" : "",
+                color: searchIconColor ? " #ffff" : "",
               }}
             >
-              RU
-            </span>
-          </button>
-          <button
-            onClick={() => {
-              changeLanguage("en");
-              setActiveLanguage("en");
-            }}
-            style={{
-              color: searchIconColor ? " #ffff" : "",
-            }}
-          >
-            <span
+              <span
+                style={{
+                  color: activelanguage === "ru" ? "rgb(120, 120, 255)" : "",
+                }}
+              >
+                RU
+              </span>
+            </button>
+            <button
+              onClick={() => {
+                changeLanguage("en");
+                setActiveLanguage("en");
+              }}
               style={{
-                color: activelanguage === "en" ? "rgb(120, 120, 255)" : "",
+                color: searchIconColor ? " #ffff" : "",
               }}
             >
-              EN
-            </span>
-          </button>
+              <span
+                style={{
+                  color: activelanguage === "en" ? "rgb(120, 120, 255)" : "",
+                }}
+              >
+                EN
+              </span>
+            </button>
 
-          <button
-            onClick={() => {
-              changeLanguage("uz");
-              setActiveLanguage("uz");
-            }}
-            style={{
-              color: searchIconColor ? " #ffff" : "",
-            }}
-          >
-            <span
+            <button
+              onClick={() => {
+                changeLanguage("uz");
+                setActiveLanguage("uz");
+              }}
               style={{
-                color: activelanguage === "uz" ? "rgb(120, 120, 255)" : "",
+                color: searchIconColor ? " #ffff" : "",
               }}
             >
-              UZ
-            </span>
-          </button>
-        </Box>
+              <span
+                style={{
+                  color: activelanguage === "uz" ? "rgb(120, 120, 255)" : "",
+                }}
+              >
+                UZ
+              </span>
+            </button>
+          </Box>
           <Box
             sx={{
               display: "flex",
@@ -254,6 +231,7 @@ export default function Navigation({ setIdInfo }) {
             onClick={toggleSearch}
           >
             <SearchIcon
+            className="searchIcon"
               sx={{
                 fontSize: "30px",
                 position: "relative",
@@ -264,11 +242,29 @@ export default function Navigation({ setIdInfo }) {
           <input
             type="text"
             className={`search-active ${searchActive ? "slide-in" : ""}`}
-            onChange={SearchChange}
+            onKeyPress={handleKeyPress}
+            onChange={(e) => {
+              setInputActive(e.target.value.length > 0);
+              handleInputChange(e);
+            }}
             style={{
               filter: searchIconColor ? " brightness(0 ) invert(1)" : "",
+              fontWeight: "700",
             }}
           />
+          <Box
+            className={searchActive ? "NoneResult" : "BlockResult"}
+            sx={{
+              position: "relative",
+              maxHeight:"250px"
+            }}
+          >
+            <SearchResult
+              result={result}
+              inputActive={inputActive}
+              searchActive={searchActivatedOnce}
+            />
+          </Box>
         </Box>
         <Box>
           <Link
@@ -291,108 +287,136 @@ export default function Navigation({ setIdInfo }) {
             />
           </Link>
         </Box>
-        <Box sx={{
-          display:'flex',
-          justifyContent:'space-between',
-          alignItems:'center',
-          gap:'5vw',
-          filter: searchIconColor ? " brightness(0 ) invert(1)" : ""
-        }}>
-        <Box className= {activecatalog ? "iconLinksNotActive": ' displayIconNav iconLinksActive '} sx={{
-          gap:'6px',
-
-        }}> 
-        <Link
-          to={"https://www.instagram.com/family_park.uz/"}
-          className="LinkFooter"
-        >
-          <span>
-            <img src={Instagram} alt="svg" style={{
-              width:'25px',
-              height:'25px'
-            }} />
-          </span>
-        </Link>
-        <Link
-          to={"https://t.me/familyparkbymirankulgroup"}
-          className="LinkFooter"
-        >
-          <span>
-            <img src={Telegram} alt="svg" style={{
-              width:'25px',
-              height:'25px'
-            }} />
-          </span>
-        </Link>
-        <Link
-          to={"https://www.tiktok.com/@familypark.uz"}
-          className="LinkFooter"
-        >
-          <span>
-            <img src={TikTok} alt="svg" style={{
-              width:'25px',
-              height:'25px'
-            }}  />
-          </span>
-        </Link>
-        <Link
-          to={"https://www.facebook.com/familyparkuz"}
-          className="LinkFooter"
-        >
-          <span>
-            <img src={Facebook} alt="svg"style={{
-              width:'25px',
-              height:'25px'
-            }}  />
-          </span>
-        </Link>
-        <Link
-          to={"https://www.youtube.com/@family_park_uz"}
-          className="LinkFooter"
-        >
-          <span>
-            <img src={Youtube} alt="svg" style={{
-              width:'25px',
-              height:'25px'
-            }}  />
-          </span>
-        </Link>
-      </Box>
         <Box
-          style={{
+          sx={{
             display: "flex",
-            flexDirection: "column",
-            gap: isActive ? "0px" : "5px",
-            cursor: "pointer",
+            justifyContent: "space-between",
+            alignItems: "center",
+            gap: "5vw",
             filter: searchIconColor ? " brightness(0 ) invert(1)" : "",
           }}
-          onClick={() => {
-            toggleCatalog();
-            toggleCatalogIcon();
-          }}
         >
-          <span
-            style={{
-              width: firstSpanWidth,
-              height: "4px",
-              borderRadius: "5px",
-              backgroundColor: "#D73B5F",
-              transform: isActive ? "rotate(45deg)" : "none",
-              transition: "all 0.4s ease",
-              position: isActive ? "absolute" : "static",
+          <Box
+            className={
+              activecatalog
+                ? "iconLinksNotActive"
+                : " displayIconNav iconLinksActive "
+            }
+            sx={{
+              gap: "6px",
             }}
-          ></span>
-          <span
+          >
+            <Link
+              to={"https://www.instagram.com/family_park.uz/"}
+              className="LinkFooter"
+            >
+              <span>
+                <img
+                  src={Instagram}
+                  alt="svg"
+                  style={{
+                    width: "25px",
+                    height: "25px",
+                  }}
+                />
+              </span>
+            </Link>
+            <Link
+              to={"https://t.me/familyparkbymirankulgroup"}
+              className="LinkFooter"
+            >
+              <span>
+                <img
+                  src={Telegram}
+                  alt="svg"
+                  style={{
+                    width: "25px",
+                    height: "25px",
+                  }}
+                />
+              </span>
+            </Link>
+            <Link
+              to={"https://www.tiktok.com/@familypark.uz"}
+              className="LinkFooter"
+            >
+              <span>
+                <img
+                  src={TikTok}
+                  alt="svg"
+                  style={{
+                    width: "25px",
+                    height: "25px",
+                  }}
+                />
+              </span>
+            </Link>
+            <Link
+              to={"https://www.facebook.com/familyparkuz"}
+              className="LinkFooter"
+            >
+              <span>
+                <img
+                  src={Facebook}
+                  alt="svg"
+                  style={{
+                    width: "25px",
+                    height: "25px",
+                  }}
+                />
+              </span>
+            </Link>
+            <Link
+              to={"https://www.youtube.com/@family_park_uz"}
+              className="LinkFooter"
+            >
+              <span>
+                <img
+                  src={Youtube}
+                  alt="svg"
+                  style={{
+                    width: "25px",
+                    height: "25px",
+                  }}
+                />
+              </span>
+            </Link>
+          </Box>
+          <Box
             style={{
-              width: secondSpanWidth,
-              height: "4px",
-              borderRadius: "5px",
-              backgroundColor: "#D73B5F",
-              transform: isActive ? "rotate(-45deg)" : "none",
-              transition: "all 0.4s ease",
+              display: "flex",
+              flexDirection: "column",
+              gap: isActive ? "0px" : "5px",
+              cursor: "pointer",
+              filter: searchIconColor ? " brightness(0 ) invert(1)" : "",
             }}
-          ></span>
-        </Box>
+            onClick={() => {
+              toggleCatalog();
+              toggleCatalogIcon();
+            }}
+          >
+            <span
+              style={{
+                width: firstSpanWidth,
+                height: "4px",
+                borderRadius: "5px",
+                backgroundColor: "#D73B5F",
+                transform: isActive ? "rotate(45deg)" : "none",
+                transition: "all 0.4s ease",
+                position: isActive ? "absolute" : "static",
+              }}
+            ></span>
+            <span
+              style={{
+                width: secondSpanWidth,
+                height: "4px",
+                borderRadius: "5px",
+                backgroundColor: "#D73B5F",
+                transform: isActive ? "rotate(-45deg)" : "none",
+                transition: "all 0.4s ease",
+              }}
+            ></span>
+          </Box>
         </Box>
         <img
           src={Line}
@@ -401,6 +425,7 @@ export default function Navigation({ setIdInfo }) {
             width: "90%",
             height: "2px",
             margin: "auto",
+            zIndex: "1000",
             position: "absolute",
             bottom: "0",
             filter: searchIconColor ? " brightness(0 ) invert(1)" : "",

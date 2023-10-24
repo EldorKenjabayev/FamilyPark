@@ -6,6 +6,9 @@
   font-weight: 600;
   font-style: normal;
 }
+.react-multiple-carousel__arrow{
+  z-index: 500 !important;
+}
 .openshopImg a span img {
   width: 26px;
   height: 27px;

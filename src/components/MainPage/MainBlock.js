@@ -15,12 +15,14 @@ import PromotionPage from "./PromotionPage/PromotionPage";
 import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
 import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
 import { useRef, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link , useLocation} from "react-router-dom";
 import { useTranslation } from "react-i18next";
 const MainBlock = ({ setIdInfo }) => {
   const [activeSection, setActiveSection] = useState(0);
   const [fullpageApi, setFullpageApi] = useState(null);
   const { t } = useTranslation();
+  const Location = useLocation();
+  const locationFirstPage =  Location.hash;
   const handleSetActiveSection = (sectionIndex) => {
     setActiveSection(sectionIndex);
   };
@@ -76,7 +78,14 @@ const MainBlock = ({ setIdInfo }) => {
           setFullpageApi(fullpageApi);
           return (
             <div id="fullpage-wrapper">
-              <div className="section">
+              <div className="section" style={{
+                height:"100vh",
+              }}>
+                {/* <Box sx={{
+                  height:"100px"
+                }}>
+
+                </Box> */}
                 <FirstPage />
               </div>
               <div
@@ -109,11 +118,12 @@ const MainBlock = ({ setIdInfo }) => {
               <div className="section">
                 <PromotionPage setIdInfo={setIdInfo} />
               </div>
-              <div className="section">
-                <LastPage />
+              <div className="section" style={{
+                height:"100% !important"
+              }}>
+                <LastPage /> <br />
                 <Footer />
               </div>
-
             </div>
           );
         }}
@@ -168,6 +178,10 @@ const MainBlock = ({ setIdInfo }) => {
           }}
         />
       </Box>
+      <Box sx={{
+        display: locationFirstPage === "#firstPage" ? 'none' :"",
+        transition:".5s liner"
+      }}>
       <Box className="btnGroupFixed">
         <Link to={"/last"}>
           <button className="BtnFixed1">
@@ -195,6 +209,7 @@ const MainBlock = ({ setIdInfo }) => {
         >
           <ArrowBackIosIcon className="ArrowIconTop" />
         </Box>
+      </Box>
       </Box>
     </Box>
   );

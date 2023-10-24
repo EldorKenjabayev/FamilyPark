@@ -18,6 +18,7 @@ export default function Footer() {
       sx={{
         background: "#F2F2F2",
         padding: "3%",
+        pt:"3vh"
       }}
     >
       <Box className='displayFooter1'>

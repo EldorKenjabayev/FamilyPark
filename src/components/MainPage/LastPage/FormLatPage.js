@@ -111,9 +111,9 @@ const RequestForm = () => {
         justifyContent: "center",
       }}
     >
-      <Box className='formlastpageBox formLastpageBox1'>
+      <Box className='formlastpageBox formLastpageBox1' >
       <h3>{t("LastPage.LastPageFormText1")}</h3>
-      <label htmlFor="profile">
+      <label htmlFor="profile" >
         <span>{t("LastPage.LastPageFormText2")}</span>
         <select
           id="profile"
@@ -121,7 +121,8 @@ const RequestForm = () => {
           value={formData.Tradingprofile}
           onChange={handleChange}
           style={{
-            marginBottom: "15px"
+            marginBottom: "15px",
+            color:'#474747'
           }}
         >
           <option value="null"></option>
@@ -203,6 +204,7 @@ const RequestForm = () => {
             width: "100%",
             padding: "10px",
             paddingBottom:'5px',
+            fontWeight:'400',
             fontSize: "15px",
             outline: "none",
             background: "#F6F6F6",

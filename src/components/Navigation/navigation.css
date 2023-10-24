@@ -1,4 +1,4 @@
-@import url('https://fonts.cdnfonts.com/css/tt-firs-neue-trl');
+@import url("https://fonts.cdnfonts.com/css/tt-firs-neue-trl");
 .search-active {
   border: none;
   border-bottom: 1px solid #000;
@@ -10,28 +10,28 @@
   transition: all 0.5s ease-in-out;
 }
 
-.activLinks{
+.activLinks {
   display: block;
   position: absolute;
-  background:#fff;
+  background: #fff;
   z-index: 2000;
   width: 200px;
   top: 75px;
   display: flex;
   flex-direction: column;
-  
 }
 .activLinks a {
   font-size: 15px;
   padding: 5px 4px;
-  border-bottom:.5px solid #000;
-  font-family: 'TT Firs Neue Trl', sans-serif;
-  color: #25254c ;
+  border-bottom: 0.5px solid #000;
+  font-family: "TT Firs Neue Trl", sans-serif;
+  color: #25254c;
 }
 
 .slide-in {
-  width: 110px;
+  width: 80px;
   opacity: 1;
+  font-size: 16px;
   font-family: "Steppe";
 }
 
@@ -39,6 +39,12 @@
   display: block;
   animation: slideIn 0.7s ease-in-out;
   opacity: 1;
+}
+.NoneResult {
+  display: block;
+}
+.BlockResult {
+  display: none;
 }
 
 @keyframes slideIn {
@@ -49,7 +55,6 @@
     opacity: 1;
   }
 }
-
 
 .closeCatalog {
   display: none;
@@ -69,10 +74,10 @@
   display: none;
 }
 
-.languNavigation button{
-  font-family: 'TT Firs Neue Trl', sans-serif;
+.languNavigation button {
+  font-family: "TT Firs Neue Trl", sans-serif;
   font-weight: 600;
-  border:none;
+  border: none;
   background: none;
   cursor: pointer;
   font-size: 17px;
@@ -80,10 +85,10 @@
   top: 3px;
   display: none;
 }
-.langueBox button{
-  font-family: 'TT Firs Neue Trl', sans-serif;
+.langueBox button {
+  font-family: "TT Firs Neue Trl", sans-serif;
   font-weight: 600;
-  border:none;
+  border: none;
   background: none;
   cursor: pointer;
   font-size: 22px;
@@ -91,17 +96,19 @@
   top: 3px;
 }
 
-@media screen and (min-width:500px){
-  .languNavigation button{
+@media screen and (min-width: 500px) {
+  .languNavigation button {
     display: block;
   }
-  .langueBox button{
+  .langueBox button {
     display: none;
+  }
+  .searchIcon{
+    font-size: 35px !important;
   }
 }
 
-
-.displayIconNav  {
+.displayIconNav {
   display: none;
   margin: 2vh 0;
 }
@@ -109,12 +116,22 @@
   display: none;
 }
 
-@media screen  and (min-width:700px){
-  .displayIconNav  {
+@media screen and (min-width: 700px) {
+  .displayIconNav {
     display: flex;
   }
-  .slide-in{
+  .slide-in {
     width: 222px;
     font-size: 22px;
+  }
+
+
+  .searchResult {
+    left: -244px !important;
+    width: 222px !important;
+  }
+
+  .searchResultText{
+    font-size: 22px !important;
   }
 }

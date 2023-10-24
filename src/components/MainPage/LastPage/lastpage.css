@@ -88,9 +88,9 @@ font-size: 17px;
 form label span{
   font-size: 18px;
   font-family: 'Steppe';
-  font-weight: 600;
+  font-weight: 400;
   position: relative;
-  color: #888888;
+  color: #474747;
 }
 
 form input{
@@ -98,6 +98,7 @@ form input{
   padding: 10px;
   margin-bottom: 15px;
   font-size: 15px;
+  font-weight: 400;
   cursor: text;
   font-family: 'Steppe';
   border:none;
@@ -155,9 +156,7 @@ form select option{
   .LastRequestForm{
     height: 50%;
   }
-  .LastPage{
-    height: 100vh;
-  }
+
   .LastTitle h1{
     font-size: 60px;
   }
