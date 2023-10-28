@@ -189,7 +189,7 @@ export default function Catalog({
         </li>
         <li>
           <Link
-            to={"#lastPage"}
+            to={"/#lastPage"}
             onClick={() => {
               toggleCatalog();
               toggleCatalogIcon();

@@ -10,6 +10,32 @@
     font-family: "Steppe";
     padding-top: 2vh;
     margin: auto;
+    text-align: center;
     font-size: 25px;
     font-weight: 500;
+  }
+
+  @media screen and (max-width:650px) {
+    .NotingFound img{
+      width: 15% !important;
+    }
+    .NotingFound h3{
+      font-size: 23px;
+    }
+  }
+  @media screen and (max-width:500px) {
+    .NotingFound img{
+      width: 18% !important;
+    }
+    .NotingFound h3{
+      font-size: 20px;
+    }
+  }
+  @media screen and (max-width:400px) {
+    .NotingFound img{
+      width: 22% !important;
+    }
+    .NotingFound h3{
+      font-size: 18px;
+    }
   }

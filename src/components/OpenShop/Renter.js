@@ -242,7 +242,7 @@ import { useTranslation } from "react-i18next";
       reset: true,
     });
     return (
-      <>
+      <Box className='renterPage'>
         {filteredShopInfo.map((item) => (
           <animated.div key={item.id} className="animated-shop" style={fadeIn}>
             <Box
@@ -336,6 +336,6 @@ import { useTranslation } from "react-i18next";
           <h4>{t("OpenShop.interesing")}</h4>
           <CorusellFooterShop setIdInfo={setIdInfo}/>
         </Box>
-      </>
+      </Box>
     );
   }

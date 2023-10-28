@@ -129,7 +129,7 @@ const CloseModal = () =>{
         >
           <h3 style={{
             position:'absolute',
-            top:'20px'
+            top:'15px'
           }}>{t("LastPage.LastPageFormText5")}</h3>
           <Box className='lostPageflex'>
 

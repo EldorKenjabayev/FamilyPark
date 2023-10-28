@@ -33,6 +33,9 @@
   padding-left: 3%;
   color: #25254c;
 }
+.renterPage{
+overflow: hidden;
+}
 .description h3 {
   font-size: 30px;
   font-family: "Steppe";

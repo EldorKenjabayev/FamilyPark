@@ -179,7 +179,7 @@ const MainBlock = ({ setIdInfo }) => {
         />
       </Box>
       <Box sx={{
-        display: locationFirstPage === "#firstPage" ? 'none' :"",
+        display: locationFirstPage === "#firstPage"  || locationFirstPage==='' ? 'none' :"",
         transition:".5s liner"
       }}>
       <Box className="btnGroupFixed">

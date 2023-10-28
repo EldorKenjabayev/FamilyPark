@@ -4,8 +4,6 @@ import {
   Route,
   Routes,
   useLocation,
-  useNavigate,
-  useParams,
 } from "react-router-dom";
 import MainBlock from "../MainPage/MainBlock";
 import Concerts from "../Concerts/Concerts";
@@ -15,7 +13,6 @@ import LostForm from "../LastPage/LostForm";
 import { useEffect } from "react";
 import CinemaScheduale from "../Cinema/CinemaSchedule";
 import Colleague from "../Colleague/Colleague";
-import Events from "../Concerts/EventsOpen";
 import RulesVisitor from "../Rules/RulesVisitor";
 import RulesParking from "../Rules/RulesParking";
 import RulesAdvertings from "../Rules/RulesAdvertings";
@@ -24,7 +21,7 @@ import EntertainmentCatalog from "../Catalog/EntertainmentCatalog";
 import EventsOpen from "../Concerts/EventsOpen";
 import PoromitionCatalog from "../Catalog/PoromitionCatalog";
 import SearchPage from "../SearchPage/SearchPage";
-
+import './router.css'
 export default function Router({ idinfo, setIdInfo, result, setResult }) {
   const Location = useLocation();
   let idLocation = Location.pathname.replace(/\D/g, "");
@@ -44,7 +41,7 @@ export default function Router({ idinfo, setIdInfo, result, setResult }) {
   console.log(idLocation);
 
   return (
-    <Box>
+    <Box className='Router'>
       <Routes>
         <Route path="/" element={<MainBlock setIdInfo={setIdInfo} />} />
         <Route
