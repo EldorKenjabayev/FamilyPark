@@ -20,14 +20,14 @@
   color: rgb(37, 37, 76);
   margin-bottom: 10px;
   translate: -20px 0px;
-  transition: 0.4s ease;
+  transition: 0.2s ease;
 }
 a {
   padding-left: 3%;
 }
 .catalog ul li a::before {
   content: "";
-  transition: 0.4s ease;
+  transition: 0.2s ease;
   display: block;
   width: 14px;
   height: 14px;

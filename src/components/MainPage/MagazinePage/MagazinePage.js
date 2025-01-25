@@ -36,7 +36,6 @@ export default function MagazinePage({ setIdInfo }) {
     localStorage.setItem("ShopInfo", item.id);
     setIdInfo(item.id);
   };
-  console.log(magazine);
   return (
     <Box
       sx={{

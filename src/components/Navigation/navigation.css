@@ -7,7 +7,7 @@
   top: 8px;
   width: 0;
   opacity: 0;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .activLinks {
@@ -23,7 +23,7 @@
 .activLinks a {
   font-size: 15px;
   padding: 5px 4px;
-  border-bottom: 0.5px solid #000;
+  border-bottom: 0.2px solid #000;
   font-family: "TT Firs Neue Trl", sans-serif;
   color: #25254c;
 }
@@ -37,7 +37,7 @@
 
 .openCatalog {
   display: block;
-  animation: slideIn 0.7s ease-in-out;
+  animation: slideIn 0.2s ease-in-out;
   opacity: 1;
 }
 .NoneResult {
@@ -59,7 +59,7 @@
 .closeCatalog {
   display: none;
   opacity: 0;
-  animation: close 0.9s ease-in-out;
+  animation: close 0.2s ease-in-out;
 }
 
 @keyframes close {

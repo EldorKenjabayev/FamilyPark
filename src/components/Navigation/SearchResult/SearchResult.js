@@ -1,5 +1,4 @@
 import { Box } from "@mui/material";
-import { hover } from "@testing-library/user-event/dist/hover";
 import React from "react";
 import { Link } from "react-router-dom";
 import '../navigation.css'
@@ -8,7 +7,7 @@ export default function SearchResult({ result, inputActive, searchActive }) {
   return (
     <Box className='searchResult'
       sx={{
-        width: `${searchActive && serachResult== '/results-search'  ? "0px" : "120px"}`,
+        width: `${searchActive && serachResult === '/results-search'  ? "0px" : "120px"}`,
         position: 'absolute',
         maxWidth:"250px",
         left: "-120px",

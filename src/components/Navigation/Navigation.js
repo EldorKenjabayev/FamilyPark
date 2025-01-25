@@ -31,7 +31,7 @@ export default function Navigation({ setIdInfo, result, setResult }) {
   useEffect(() => {
     const fetchData = () => {
       axios
-        .get("http://localhost:3003/magazine")
+        .get("https://679509b5aad755a134eb0c43.mockapi.io/api/magazine")
         .then((res) => {
           const data = res.data;
           const filteredResult = data.filter((item) =>
@@ -402,7 +402,7 @@ export default function Navigation({ setIdInfo, result, setResult }) {
                 borderRadius: "5px",
                 backgroundColor: "#D73B5F",
                 transform: isActive ? "rotate(45deg)" : "none",
-                transition: "all 0.4s ease",
+                // transition: "all 0.2s ease",
                 position: isActive ? "absolute" : "static",
               }}
             ></span>
@@ -413,7 +413,7 @@ export default function Navigation({ setIdInfo, result, setResult }) {
                 borderRadius: "5px",
                 backgroundColor: "#D73B5F",
                 transform: isActive ? "rotate(-45deg)" : "none",
-                transition: "all 0.4s ease",
+                // transition: "all 0.2s ease",
               }}
             ></span>
           </Box>

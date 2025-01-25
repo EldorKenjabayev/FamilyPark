@@ -10,25 +10,25 @@ export default function FoodPage() {
   const [foods, setFodds] = useState([
     {
       id: 1,
-      img: "https://family.khm473.ru/uploads/tenant/1676541532.jpg",
+      img: "https://family.khm473.ru/uploads/tenant/1685439659.jpg",
       magazineType: "Еда",
       magazineName: "Chocolate",
     },
     {
       id: 2,
-      img: "https://family.khm473.ru/uploads/tenant/1676541532.jpg",
+      img: "https://family.khm473.ru/uploads/tenant/1685439659.jpg",
       magazineType: "Еда",
       magazineName: "Chocolate",
     },
     {
       id: 3,
-      img: "https://family.khm473.ru/uploads/tenant/1676541532.jpg",
+      img: "https://family.khm473.ru/uploads/tenant/1685439659.jpg",
       magazineType: "Еда",
       magazineName: "Chocolate",
     },
     {
       id: 4,
-      img: "https://family.khm473.ru/uploads/tenant/1676541532.jpg",
+      img: "https://family.khm473.ru/uploads/tenant/1685439659.jpg",
       magazineType: "Еда",
       magazineName: "Chocolate",
     },

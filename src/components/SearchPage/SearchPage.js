@@ -49,7 +49,7 @@ export default function SearchPage({result}) {
         sx={{
           pt:"110px",
           position:'relative',
-          pb:result.length == 0 ? '50px' :'130px'
+          pb:result.length === 0 ? '50px' :'130px'
         }}
       >
         <h1 style={{
@@ -88,7 +88,7 @@ export default function SearchPage({result}) {
         </Box>
         </Box>
         {
-            result.length == 0 ? (
+            result.length === 0 ? (
                 <Box className='NotingFound' sx={{
                     width:'100%',
                     display:'flex',
